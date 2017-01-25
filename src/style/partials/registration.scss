@@ -1,0 +1,92 @@
+.cube-registration__header {
+    padding-top: 70px;
+}
+
+.cube-registration__content {
+    height: 330px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.cube-registration__enter-via {
+    width: 270px;
+    height: 40px;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+    font: 13px globersemibold;
+    text-align: center;
+    padding: 14px 0 0 10px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.cube-registration__enter-via-img {
+    position: absolute;
+    left: 20px;
+    height: 18px;
+    top: 11px;
+}
+
+.cube-registration__reg-block,
+.cube-registration__or-line,
+.cube-registration__enter-via-block {
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+}
+
+.cube-registration__reg-block {
+    text-align: left;
+    margin-top: -25px;
+}
+
+.cube-registration__button {
+    margin-top: 19px;
+}
+
+.cube-registration__vertical-line {
+    border: 1px solid #E1E1E1;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    margin: 130px auto 170px;
+    text-align: center;
+    font: 13px globerbold;
+    text-transform: lowercase;
+    padding: 8px 0 0 1px;
+    color: #C7C7C7;
+}
+
+.cube-registration__vertical-line:before {
+    content: "";
+    height: 130px;
+    position: absolute;
+    width: 1px;
+    top: -130px;
+    left: 14px;
+    background-color: #E1E1E7;
+}
+
+.cube-registration__vertical-line:after {
+    content: "";
+    height: 170px;
+    position: absolute;
+    width: 1px;
+    top: 29px;
+    left: 14px;
+    background-color: #E1E1E7;
+}
+
+.cube-registration__bottom-text {
+    font: 13px/18px globerregular;
+    text-align: center;
+    padding: 90px 0 0;
+}
+
+.cube-registration__bottom-text-link {
+    color: #0833B6;
+}

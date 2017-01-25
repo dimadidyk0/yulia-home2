@@ -1,0 +1,51 @@
+// HEADER
+.cube-reg-header {
+    height: 96px;
+    background-color: #0C003B;
+    text-align: center;
+}
+
+.cube-reg-header__logo {
+    position: absolute;
+    left: -81px;
+    height: 34px;
+    width: 31px;
+    margin: 31px 0;
+}
+
+.cube-reg-header__nav {
+    padding: 33px 0;
+}
+
+.cube-reg-header__item {
+    display: inline-block;
+    color: #fff;
+    font: 12px/18px globerbold;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 13px 0;
+    vertical-align: top;
+    position: relative;
+}
+
+.cube-reg-header__item-link {
+    padding: 7px 0 0;
+    box-sizing: border-box;
+    height: 26px;
+    display: block;
+}
+
+.cube-reg-header__item--current {
+    background-color: white;
+    color: #0C003B;
+}
+
+.cube-reg-header__item--done {
+    border-color: #4C446F;
+}
+
+// /HEADER
