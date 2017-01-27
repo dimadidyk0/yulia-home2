@@ -155,30 +155,24 @@ a {
 
 @font-face {
     font-family: 'globerbold';
-    src: url('../fonts/glober_bold-webfont.eot');
-    src: url('../fonts/glober_bold-webfont.eot?#iefix') format('embedded-opentype'), /*        url('../fonts/glober_bold-webfont.woff') format('woff'),*/
-    /*        url('../fonts/glober_bold-webfont.ttf') format('truetype'),*/
-    url('../fonts/glober_bold-webfont.svg#globerbold') format('svg');
+    src: url('../fonts/GloberBold/glober_bold-webfont.eot');
+    src: url('../fonts/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GloberBold/GloberBold.otf') format('truetype'), url('../fonts/GloberBold/glober_bold-webfont.woff') format('woff'), url('../fonts/GloberBold/glober_bold-webfont.ttf') format('truetype'), url('../fonts/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'globerregular';
-    src: url('../fonts/glober_regular-webfont.eot');
-    src: url('../fonts/glober_regular-webfont.eot?#iefix') format('embedded-opentype'), /*        url('../fonts/glober_regular-webfont.woff') format('woff'),*/
-    /*        url('../fonts/glober_regular-webfont.ttf') format('truetype'),*/
-    url('../fonts/glober_regular-webfont.svg#glober_regularregular') format('svg');
+    src: url('../fonts/GloberRegular/glober_regular-webfont.eot');
+    src: url('../fonts/GloberRegular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GloberRegular/GloberRegular.otf') format('truetype'), url('../fonts/GloberRegular/glober_regular-webfont.woff') format('woff'), url('../fonts/GloberRegular/glober_regular-webfont.ttf') format('truetype'), url('../fonts/GloberRegular/glober_regular-webfont.svg#glober_regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'globersemibold';
-    src: url('../fonts/glober_semibold-webfont.eot');
-    src: url('../fonts/glober_semibold-webfont.eot?#iefix') format('embedded-opentype'), /*        url('../fonts/glober_semibold-webfont.woff') format('woff'),*/
-    /*        url('../fonts/glober_semibold-webfont.ttf') format('truetype'),*/
-    url('../fonts/glober_semibold-webfont.svg#globersemibold') format('svg');
+    src: url('../fonts/GloberSemiBold/glober_semibold-webfont.eot');
+    src: url('../fonts/GloberSemiBold/glober_semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GloberSemiBold/GloberSemiBold.otf') format('truetype'), url('../fonts/GloberSemiBold/glober_semibold-webfont.woff') format('woff'), url('../fonts/GloberSemiBold/glober_semibold-webfont.ttf') format('truetype'), url('../fonts/GloberSemiBold/glober_semibold-webfont.svg#globersemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -226,6 +220,7 @@ a {
     padding: 5px 0 0;
     outline: none;
     display: block;
+    cursor: pointer;
 }
 
 .cube-reg-content__label {
@@ -241,10 +236,31 @@ a {
     box-sizing: border-box;
     border: 1px solid #C6C6C6;
     // color: #C6C6C6;
-    font: 13px/24px globerbold;
+    font: 13px/24px globerregular;
     padding: 3px 9px 0;
     margin-bottom: 16px;
     outline: none;
+}
+
+.cube-reg-content__task-box {
+    width: 320px;
+    box-sizing: border-box;
+    padding: 21px 15px 8px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+}
+
+.cube-reg-content__textarea {
+    height: 56px;
+    width: 290px;
+    resize: none;
+    box-sizing: border-box;
+    padding: 7px 9px;
+    font: 13px globerregular;
+    outline: none;
+    border: 1px solid #C6C6C6;
+    margin-bottom: 15px;
 }
 
 .cube-reg-content__input::-webkit-input-placeholder {
@@ -267,6 +283,26 @@ a {
     font-family: globerregular
 }
 
+.cube-reg-content__textarea::-webkit-input-placeholder {
+    color: #C6C6C6;
+    font-family: globerregular
+}
+
+.cube-reg-content__textarea::-moz-placeholder {
+    color: #C6C6C6;
+    font-family: globerregular
+}
+
+.cube-reg-content__textarea:-moz-placeholder {
+    color: #C6C6C6;
+    font-family: globerregular
+}
+
+.cube-reg-content__textarea:-ms-input-placeholder {
+    color: #C6C6C6;
+    font-family: globerregular
+}
+
 input::-webkit-calendar-picker-indicator {
     position: absolute;
     opacity: 0;
@@ -277,6 +313,14 @@ input::-webkit-calendar-picker-indicator {
 
 input:enabled:read-write:-webkit-any(:focus,
 :hover)::-webkit-inner-spin-button {
+    display: none;
+}
+
+input::-webkit-clear-button {
+    display: none;
+}
+
+::-webkit-inner-spin-button {
     display: none;
 }
 
@@ -297,6 +341,7 @@ input:enabled:read-write:-webkit-any(:focus,
     display: inline-block;
     position: relative;
     margin-bottom: 13px;
+    position: relative;
 }
 
 .cube-reg-content__select-box:before {

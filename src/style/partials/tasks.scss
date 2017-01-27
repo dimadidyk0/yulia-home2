@@ -1,0 +1,83 @@
+.cube-tasks__task-container,
+.cube-tasks__subtask-container,
+.cube-tasks__subheader-task,
+.cube-tasks__subheader-subtask {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+    padding-top: 11px;
+}
+
+.cube-tasks__block-bottom-line {
+    border-bottom: 1px solid gainsboro;
+    box-sizing: border-box;
+    height: 746px;
+}
+
+.cube-tasks__box {
+    font-size: 0;
+}
+
+.cube-tasks__subheader-task,
+.cube-tasks__task-container {
+    padding-left: 127px;
+    padding-right: 50px;
+}
+
+.cube-tasks__subheader-subtask {
+    padding-left: 51px;
+    padding-right: 126px;
+}
+
+.cube-tasks__task-container {
+    height: 746px;
+    box-sizing: border-box;
+    border-right: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.cube-tasks__subtask {
+    height: 360px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 51px;
+    padding-right: 126px;
+}
+
+.cube-tasks__subtask:nth-child(2n) {
+    margin-top: 15px;
+}
+
+.cube-tasks__button {
+    display: block;
+    margin: 34px auto;
+}
+
+.cube-tasks__plus {
+    background-color: transparent;
+    background-image: url(../img/cube-plus.png);
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    border: none;
+    outline: none;
+}
+
+.cube-tasks__item-content {
+    position: relative;
+}
+
+.cube-tasks__plus--bottom {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.cube-tasks__plus--right {
+    position: absolute;
+    top: 125px;
+    right: -34px;
+    display: block;
+}
