@@ -17,12 +17,17 @@ for (var i = 0; i < requirementPlusButton.length; i++) {
         var blockHeight = this.parentNode.parentNode;
         blockHeight = getComputedStyle(blockHeight);
         leftLabel.style.height = blockHeight.height;
-        this.parentNode.parentNode.querySelector('.cube-requirements__item-span').style.width = blockHeight.height;
-        this.parentNode.parentNode.querySelector('.cube-requirements__item-span').style.height = blockHeight.height;
+        this.parentNode.parentNode.querySelector('.cube-requirements__item-span').style.width = (parseInt(blockHeight.height) + 280) + "px";
+        this.parentNode.parentNode.querySelector('.cube-requirements__item-span').style.height = (parseInt(blockHeight.height) + 280) + "px";
+        this.parentNode.parentNode.querySelector('.cube-requirements__item-label').style.height = (parseInt(blockHeight.height) + 280) + "px";
+        this.parentNode.parentNode.querySelector('.cube-requirements__item-content').style.height = (parseInt(blockHeight.height) + 280) + "px";
+        // this.parentNode.parentNode.querySelector('.cube-requirements__plus-img').style.bottom = "280px";
+        // this.parentNode.parentNode.querySelector('.cube-requirements__plus-img').style.bottom = "0px";
+        console.log(parseInt(blockHeight.height) + 280);
         // установка высоты левого блока с названием 
-        var val = parseInt(getComputedStyle(item).height) + 13;
-        console.log(val);
-        window.scrollBy(0, val);
+        // var val = parseInt(getComputedStyle(item).height) + 13;
+        // console.log(val);
+        // window.scrollBy(0, val);
         // скроллится на высоту добавленного элемента
 
     });

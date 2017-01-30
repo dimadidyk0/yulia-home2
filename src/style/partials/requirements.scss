@@ -80,6 +80,8 @@
     display: inline-block;
     vertical-align: top;
     border-bottom: 1px solid #DFDFDF;
+    height: 319px;
+    position: relative;
 }
 
 .cube-requirements__item-span {
@@ -107,6 +109,10 @@
     position: relative;
     // background-color: green;
     border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .cube-requirements__plus-img:before {
@@ -141,7 +147,8 @@
 }
 
 .cube-requirements__task-box--animate {
-    animation: mymove 2s 1;
+    animation: mymove 1s;
+    position: relative;
 }
 
 @-webkit-keyframes mymove {
@@ -155,6 +162,9 @@
     // 75% {
     //     top: 50px
     // }
+    99% {
+        z-index: -1;
+    }
     100% {
         top: 0px;
         z-index: 1;
@@ -182,4 +192,10 @@
         top: 0px;
         z-index: 1;
     }
+}
+
+.cube-requirements__item-span,
+.cube-requirements__item-label,
+.cube-requirements__item-content {
+    transition: all 1s;
 }
