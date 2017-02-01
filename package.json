@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chroma-js": "^1.2.1",
     "gulp": "^3.8.11",
     "imagemin-pngquant": "^5.0.0"
   },
