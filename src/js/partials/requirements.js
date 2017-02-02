@@ -21,14 +21,14 @@ for (var i = 0; i < requirementPlusButton.length; i++) {
         this.parentNode.parentNode.querySelector('.cube-requirements__item-span').style.height = (parseInt(blockHeight.height) + 280) + "px";
         this.parentNode.parentNode.querySelector('.cube-requirements__item-label').style.height = (parseInt(blockHeight.height) + 280) + "px";
         this.parentNode.parentNode.querySelector('.cube-requirements__item-content').style.height = (parseInt(blockHeight.height) + 280) + "px";
-        // this.parentNode.parentNode.querySelector('.cube-requirements__plus-img').style.bottom = "280px";
-        // this.parentNode.parentNode.querySelector('.cube-requirements__plus-img').style.bottom = "0px";
-        console.log(parseInt(blockHeight.height) + 280);
         // установка высоты левого блока с названием 
         // var val = parseInt(getComputedStyle(item).height) + 13;
         // console.log(val);
         // window.scrollBy(0, val);
         // скроллится на высоту добавленного элемента
-
+        document.querySelector('.cube-reg-content__risks-value').innerHTML -= 1;
+        // меняем значение рисков
+        changeRisksColor();
+        // change color of risks-block
     });
 }

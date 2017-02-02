@@ -1,15 +1,20 @@
-var a = document.querySelector('.cube-reg-content__risks-value').innerHTML;
+if (document.querySelector('.cube-new-project form')) {
+    this.onchange = newprojectCalculateRisks;
+}
 
-document.querySelector('select[name="test"]').onchange = x;
-document.querySelector('select[name="test2"]').onchange = x;
+var newprojectRisksValue = document.querySelector(' .cube-reg-content__risks-value').innerHTML;
 
+function newprojectCalculateRisks() {
 
-
-function x() {
-    var arrayOfValues = document.querySelectorAll('option:checked');
+    // get risks value
+    var arrayOfValues = document.querySelectorAll('.cube-new-project__box option:checked');
+    // find all checked select-items
     var s = parseInt(arrayOfValues[0].getAttribute('name'));
     var f = parseInt(arrayOfValues[1].getAttribute('name'));
-    var b = a - s - f;
+    var b = newprojectRisksValue - s - f;
+    // calculate difference
     document.querySelector('.cube-reg-content__risks-value').innerHTML = b;
+    // set risks value 
     changeRisksColor();
+    // change color of risks-block
 };

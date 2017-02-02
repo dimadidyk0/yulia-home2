@@ -17,13 +17,17 @@ function addBottomBlock() {
             plusTaskButton = document.querySelectorAll('.cube-tasks__plus--bottom');
             addBottomBlock();
             document.querySelector('.cube-tasks__box').style.height = parseInt(getComputedStyle(document.querySelector('.cube-tasks__box')).height) + 746 + "px";
+
+            document.querySelector('.cube-reg-content__risks-value').innerHTML -= 1;
+            // меняем значение рисков
+            changeRisksColor();
+            // change color of risks-block
         }
 
     }
     var plusSubTaskButton = document.querySelectorAll('.cube-tasks__plus--right');
     for (var i = 0; i < plusSubTaskButton.length; i++) {
         var subTasks = plusSubTaskButton[i].parentNode.parentNode.parentNode.querySelectorAll('.cube-tasks__subtask');
-        console.log(subTasks);
         if (subTasks.length >= 2) {
             plusSubTaskButton[i].style.display = "none";
         } else {
@@ -35,6 +39,11 @@ function addBottomBlock() {
                 cloneSubtask.classList.add('cube-tasks__subtask--animated');
                 thisBlock.querySelector('.cube-tasks__subtask-container').appendChild(cloneSubtask);
                 addBottomBlock();
+
+                document.querySelector('.cube-reg-content__risks-value').innerHTML -= 1;
+                // меняем значение рисков
+                changeRisksColor();
+                // change color of risks-block
             }
         }
     }
