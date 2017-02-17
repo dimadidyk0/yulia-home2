@@ -22,7 +22,7 @@
 .cube-tasks__box {
     font-size: 0;
     position: relative;
-    height: 1017px;
+    height: 1051px;
     box-sizing: border-box;
     transition: all 1s;
 }
@@ -103,6 +103,15 @@
 
 .cube-tasks__block-bottom-line--animated {
     animation: tasksBigBlock 1s;
+}
+
+.cube-tasks__total-time {
+    font: 13px/24px globerregular;
+    padding: 0 0 10px 0;
+}
+
+.cube-tasks__total-time-value {
+    font-family: globerbold;
 }
 
 @-webkit-keyframes tasksBigBlock {

@@ -52,8 +52,8 @@
                     <img src="img/cube-help-img.png" alt="" class="cube-reg-content__help-img">
                 </div>
             </div>
-            <h2 class="cube-reg-content__header">Наиболее важные задачи </h2>
-            <p class="cube-reg-content__subheader">Требования типизированы и имеют древовидную структуру</p>
+            <h2 class="cube-reg-content__header">Введите наиболее важные задачи</h2>
+            <p class="cube-reg-content__subheader">Вы указываете время и связи, а система рассчитывает оценочные сроки выполнения проекта</p>
     
             <p class="cube-reg-content__subheader cube-tasks__subheader-task">Задача</p>
             <p class="cube-reg-content__subheader cube-tasks__subheader-subtask">Подзадача</p>
@@ -63,17 +63,21 @@
                 <div class="cube-tasks__task-container">
                     <div class="cube-tasks__item-content">
                         <div class="cube-reg-content__task-box">
-                            <label for="" class="cube-reg-content__label">Требование</label>
-                            <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Анализ рынка">
+                            <label for="" class="cube-reg-content__label">Задача</label>
+                            <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите задачу">
                             <label for="" class="cube-reg-content__label">Детали</label>
-                            <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Анализировать интеграции Github"></textarea>
-                            <label for="" class="cube-reg-content__label">Milestone</label>
+                            <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали"></textarea>
+                            <label for="" class="cube-reg-content__label">Реализуемые требования</label>
                             <div class="cube-reg-content__select-box cube-requirements__select-box">
                                 <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                    <option selected value="">Alfaversion 22.10.16 </option>
+                                    <option selected disabled value="">Выберите требование</option>
+                                    <option value="">Alfaversion 22.10.16 </option>
                                     <option value="">Alfaversion 23.10.16 </option>
                                     <option value="">Alfaversion 24.10.16 </option>
                                 </select>
+                            </div>
+                            <div class="cube-tasks__total-time">
+                                <p>Общее планируемое время: <span class="cube-tasks__total-time-value">10 ч</span></p>
                             </div>
                         </div>
                         <button class="cube-tasks__plus cube-tasks__plus--bottom"></button>
@@ -111,24 +115,25 @@
                     <div class="cube-tasks__subtask">
                         <div class="cube-tasks__item-content">
                             <div class="cube-reg-content__task-box">
-                                <label for="" class="cube-reg-content__label">Требование</label>
-                                <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Анализ рынка">
+                                <label for="" class="cube-reg-content__label">Задача</label>
+                                <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите задачу">
                                 <label for="" class="cube-reg-content__label">Детали</label>
-                                <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Анализировать интеграции Github"></textarea>
-                                <label for="" class="cube-reg-content__label">Milestone</label>
+                                <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали"></textarea>
+                                <label for="" class="cube-reg-content__label">Реализуемые требования</label>
                                 <div class="cube-reg-content__select-box cube-requirements__select-box">
                                     <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                    <option selected value="">Alfaversion 22.10.16 </option>
+                                    <option selected disabled value="">Выберите требование</option>
+                                    <option value="">Alfaversion 22.10.16 </option>
                                     <option value="">Alfaversion 23.10.16 </option>
                                     <option value="">Alfaversion 24.10.16 </option>
                                 </select>
                                 </div>
                                 <label for="" class="cube-reg-content__label">Время выполнения </label>
                                 <div class="cube-reg-content__select-box cube-requirements__select-box">
-                                    <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                    <option selected value="">1 ч</option>
-                                    <option value="">2 ч</option>
-                                    <option value="">3 ч</option>
+                                    <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select cube-tasks__select-time">
+                                    <option selected value="1">1 ч</option>
+                                    <option value="2">2 ч</option>
+                                    <option value="3">3 ч</option>
                                 </select>
                                 </div>
                             </div>

@@ -22,6 +22,7 @@ function addBottomBlock() {
             // меняем значение рисков
             changeRisksColor();
             // change color of risks-block
+            taskTotalTime();
         }
 
     }
@@ -44,9 +45,31 @@ function addBottomBlock() {
                 // меняем значение рисков
                 changeRisksColor();
                 // change color of risks-block
+                taskTotalTime();
             }
         }
     }
 }
 
 addBottomBlock();
+
+
+
+function taskTotalTime() {
+
+    var taskArray = document.querySelectorAll('.cube-tasks__block-bottom-line');
+    for (var i = 0; i < taskArray.length; i++) {
+        var totalTime = "0ч";
+        var totalTimeSpan = taskArray[i].querySelector('.cube-tasks__total-time-value');
+        var timeValueArray = taskArray[i].querySelectorAll('.cube-tasks__select-time');
+        for (var y = 0; y < timeValueArray.length; y++) {
+            var executionTime = timeValueArray[y].value;
+            var totalTime = (parseInt(totalTime) + parseInt(executionTime)) + " ч";
+            timeValueArray[y].addEventListener('change', function() {
+                taskTotalTime();
+            });
+        }
+        totalTimeSpan.innerHTML = totalTime;
+    }
+}
+taskTotalTime();

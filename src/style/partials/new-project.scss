@@ -3,15 +3,15 @@
     box-sizing: border-box;
 }
 
-.cube-new-project__header {
-    padding-bottom: 55px;
-}
-
 .cube-new-project__img {
     width: 361px;
     height: 362px;
     float: right;
     vertical-align: top;
+}
+
+.cube-new-project__subheader {
+    padding-bottom: 19px;
 }
 
 .cube-new-project__creature-block {
