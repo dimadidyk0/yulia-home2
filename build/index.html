@@ -1,423 +1,49 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
  
- <head>
-     <link rel="stylesheet" href="css/main.css">
-     <meta charset="UTF-8">
-     <title></title>
- </head>
- 
- <body>
- 
-     <!--
- 	      ###  HEADER   ###
- 	-->
- 
-     <div class="cube-reg-header">
-         <div class="cube-reg-container">
-             <img src="img/cube-img.png" alt="" class="cube-reg-header__logo">
-             <ul class="cube-reg-header__nav">
-                 <li class="cube-reg-header__item cube-reg-header__item--done">
-                     <a href="registration.html" class="cube-reg-header__item-link">1. РЕГИСТРАЦИЯ</a>
-                 </li>
-                 <li class="cube-reg-header__item cube-reg-header__item--current">
-                     <a href="new-project.html" class="cube-reg-header__item-link">2. ПРОЕКТ</a>
-                 </li>
-                 <li class="cube-reg-header__item">
-                     <a href="milestones.html" class="cube-reg-header__item-link">3. ВЕХИ</a>
-                 </li>
-                 <li class="cube-reg-header__item">
-                     <a href="requirements.html" class="cube-reg-header__item-link">4. ТРЕБОВАНИЯ </a>
-                 </li>
-                 <li class="cube-reg-header__item">
-                     <a href="tasks.html" class="cube-reg-header__item-link">5. ЗАДАЧИ </a>
-                 </li>
-             </ul>
-         </div>
+ <div class="main">
+     <div class="pop-up" id="contactPopUp">
+         <div class="pop-up__layout"></div>
+         <form class="pop-up__form" action="" method="POST">
+             <input type="text">
+             <input type="text">
+             <button type="submit">Accept</button>
+             <button type="button" class="pop-up__close">close</button>
+         </form>
      </div>
+ 
+     <div class="container">
+         <header class="header">
+             <h1 class="header__logo logo">LOGO</h1>
+             
+             <div class="header__controls">
+                 <nav class="nav">
+                     <a class="nav__link" href="#">Lorem lorem</a>
+                     <a class="nav__link" href="#">Lorem lorem</a>
+                 </nav>
+                 <button id="leaveMessageBtn" class="contact-btn header__contact-btn">
+                     Оставить заявку
+                 </button>
+             </div>
+         </header>
+     </div>
+ </div>
 <!---->
-<!--
-	      ###  REGISTRATION   ###
-	-->
 
-<div class="cube-registration">
-    <div class="cube-reg-container">
-        <h2 class="cube-reg-content__header cube-registration__header">Зарегистрируйтесь</h2>
-        <div class="cube-registration__content">
-            <div class="cube-registration__enter-via-block">
-                <a href="#" class="cube-registration__enter-via">
-                    <img src="img/link-icon.png" alt="" class="cube-registration__enter-via-img">Зарегистрироваться через Linkdin
-                </a>
-                <a href="#" class="cube-registration__enter-via">
-                    <img src="img/fb-icon.png" alt="" class="cube-registration__enter-via-img"> Зарегистрироваться через Facebook
-                </a>
-                <a href="#" class="cube-registration__enter-via">
-                    <img src="img/google-icon.png" alt="" class="cube-registration__enter-via-img"> Зарегистрироваться через Google
-                </a>
-            </div>
-            <div class="cube-registration__or-line">
-                <span class="cube-registration__vertical-line">Или</span>
-            </div>
-            <div class="cube-registration__reg-block">
-                <form action="">
-                    <label for="" class="cube-reg-content__label">Email</label>
-                    <input required type="email" class="cube-reg-content__input" placeholder="Введите email">
-                    <label for="" class="cube-reg-content__label">Имя</label>
-                    <input required type="text" class="cube-reg-content__input" placeholder="Введите имя">
-                    <label for="" class="cube-reg-content__label">Фамилия</label>
-                    <input required type="text" class="cube-reg-content__input" placeholder="Введите фамилию">
-                    <label for="" class="cube-reg-content__label">Название компании</label>
-                    <input required type="password" class="cube-reg-content__input" placeholder="Пароль не меньше 6 символов">
-                    <button class="cube-reg-content__button cube-registration__button">Зарегистироваться</button>
-                </form>
-            </div>
-
-        </div>
-        <div class="cube-registration__bottom-text">
-            Регистрируясь, я выражаю согласие с <br>
-            <a href="#" class="cube-registration__bottom-text-link">Условиями предоставления услуг</a> и<a href="#" class="cube-registration__bottom-text-link"> Политикой конфиденциальности</a>
-        </div>
-    </div>
-</div>
 <!---->
-<!--
-	      ###  NEW PROJECT   ###
-	-->
-<div class="cube-new-project">
-    <div class="cube-reg-content__box cube-new-project__box">
-        <div class="cube-reg-content__risks">
-            <span class="cube-reg-content__risks-value">100</span><span class="cube-reg-content__risks-percent">%</span>
-            <span class="cube-reg-content__risks-text">риски</span>
-        </div>
-        <div class="cube-reg-content__help">
-            <div class="cube-reg-content__help-text-block">
-                <p class="cube-reg-content__help-question">Требуется помощь?</p>
-                <p class="cube-reg-content__help-contact">
-                    <span class="cube-reg-content__help-span-bold">Авилова Юлия</span> +38(073) 838 22 83
-                </p>
-            </div>
-            <div class="cube-reg-content__help-img-block">
-                <img src="img/cube-help-img.png" alt="" class="cube-reg-content__help-img">
-            </div>
-        </div>
-        <h2 class="cube-reg-content__header cube-new-project__header">Создайте свой первый проект</h2>
-        <p class="cube-reg-content__subheader cube-new-project__subheader">Проектами можно управлять по методологиям Scrum, Waterflow, Kanban</p>
-        <div class="cube-new-project__creature-block">
-            <form action="">
-                <label for="" class="cube-reg-content__label ">Название проекта</label>
-                <input type="text" class="cube-reg-content__input" placeholder="Введите название проекта">
-                <!--<label for="" class="cube-reg-content__label">Шаблон проекта</label>
-                <div class="cube-reg-content__select-box">
-                    <select name="cube-new-project-select-1" id="" size="1" class="cube-reg-content__select">
-                        <option selected name="0" value="-">-</option>
-                        <option name="1" value="Mobile app">Mobile app</option>
-                        <option name="5" value="Agile Sprint">Agile Sprint</option>
-                        <option name="10" value="Agile Sprint">Agile</option> 
-                    </select>
-                </div>-->
-                <label for="" class="cube-reg-content__label">Модель управления</label>
-                <div class="cube-reg-content__select-box">
-                    <select name="cube-new-project-select-2" id="" size="1" class="cube-reg-content__select">
-                        <option selected name="0" value="-">-</option>
-                        <option name="1" value="Mobile app">Scrum</option>
-                        <option name="5" value="Agile Sprint">Waterflow</option>
-                        <option name="10" value="Agile Sprint">Kanban</option> 
-                   </select>
-                </div>
-                <div class="cube-new-project__date-block">
-                    <label for="" class="cube-new-project__date-label cube-reg-content__label">Дата завершения</label>
-                    <input type="date" class="cube-reg-content__input cube-milestones__date-input" value="2017-04-13" maxlength="10">
-                </div>
-                <button class="cube-reg-content__button cube-new-project__button">СОЗДАТЬ</button>
-            </form>
-        </div>
-        <img src="img/new-project-img.png" alt="" class="cube-new-project__img">
-    </div>
-</div>
-<!---->
-<div class="cube-milestones">
-    <div class="cube-reg-content__box cube-milestones__box">
-        <div class="cube-reg-content__risks">
-            <span class="cube-reg-content__risks-value">100</span><span class="cube-reg-content__risks-percent">%</span>
-            <span class="cube-reg-content__risks-text">риски</span>
-        </div>
-        <div class="cube-reg-content__help">
-            <div class="cube-reg-content__help-text-block">
-                <p class="cube-reg-content__help-question">Требуется помощь?</p>
-                <p class="cube-reg-content__help-contact">
-                    <span class="cube-reg-content__help-span-bold">Авилова Юлия</span> +38(073) 838 22 83
-                </p>
-            </div>
-            <div class="cube-reg-content__help-img-block">
-                <img src="img/cube-help-img.png" alt="" class="cube-reg-content__help-img">
-            </div>
-        </div>
-        <h2 class="cube-reg-content__header">Определите этапы разработки</h2>
-        <p class="cube-reg-content__subheader">Вы определяете плановые даты, система определяет оценочные и фиксирует фактические даты </p>
-        <div class="cube-milestones__form-block">
-            <form action="">
-                <div class="cube-milestones__item">
-                    <div class="cube-milestones__name-block">
-                        <label for="" class="cube-reg-content__label">Веха</label>
-                        <input type="text" class="cube-milestones__input cube-reg-content__input" placeholder="Введите название вехи">
-                    </div>
-                    <div class="cube-milestones__date-block">
-                        <label for="" class="cube-reg-content__label">Дата</label>
-                        <input type="date" class="cube-reg-content__input cube-milestones__date-input" min="today" maxlength="10" name="0">
-                    </div>
-                </div>
-                <div class="cube-milestones__item">
-                    <div class="cube-milestones__name-block">
-                        <label for="" class="cube-reg-content__label">Веха</label>
-                        <input type="text" class="cube-milestones__input cube-reg-content__input" placeholder="Введите название вехи">
-                    </div>
-                    <div class="cube-milestones__date-block">
-                        <label for="" class="cube-reg-content__label">Дата</label>
-                        <input type="date" class="cube-reg-content__input cube-milestones__date-input" maxlength="10" name="0">
-                    </div>
-                </div>
-                <div class="cube-milestones__item">
-                    <div class="cube-milestones__name-block">
-                        <label for="" class="cube-reg-content__label">Дата завершения</label>
-                    </div>
-                    <div class="cube-milestones__date-block">
-                        <input type="date" class="cube-reg-content__input cube-milestones__date-input" maxlength="10" name="0">
-                    </div>
-                </div>
-                <button class="cube-reg-content__button cube-milestones__button">Передать</button>
-            </form>
-        </div>
-        <img src="img/milestones-img.png" alt="" class="cube-milestones__img">
-    </div>
-</div>
-<!---->
-<div class="cube-requirements">
-    <div class="cube-reg-content__box cube-requirements__box">
-        <div class="cube-reg-content__risks">
-            <span class="cube-reg-content__risks-value">100</span><span class="cube-reg-content__risks-percent">%</span>
-            <span class="cube-reg-content__risks-text">риски</span>
-        </div>
-        <div class="cube-reg-content__help">
-            <div class="cube-reg-content__help-text-block">
-                <p class="cube-reg-content__help-question">Требуется помощь?</p>
-                <p class="cube-reg-content__help-contact">
-                    <span class="cube-reg-content__help-span-bold">Авилова Юлия</span> +38(073) 838 22 83
-                </p>
-            </div>
-            <div class="cube-reg-content__help-img-block">
-                <img src="img/cube-help-img.png" alt="" class="cube-reg-content__help-img">
-            </div>
-        </div>
-        <h2 class="cube-reg-content__header">Наиболее важные требования </h2>
-        <p class="cube-reg-content__subheader cube-requirements__subheader">Требования типизированы и имеют древовидную структуру</p>
-        <div class="cube-requirements__list-block">
-            <div class="cube-requirements__list-item">
-                <div class="cube-requirements__item-label cube-requirements__item-label--color-1">
-                    <span class="cube-requirements__item-span">BUSINESS</span>
-                </div>
-                <div class="cube-requirements__item-content">
-                    <div class="cube-reg-content__task-box cube-requirements__task-box">
-                        <label for="" class="cube-reg-content__label">Требование</label>
-                        <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите бизнес требование">
-                        <label for="" class="cube-reg-content__label">Детали</label>
-                        <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали  требования"></textarea>
-                        <label for="" class="cube-reg-content__label">Milestone</label>
-                        <div class="cube-reg-content__select-box cube-requirements__select-box">
-                            <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option value="" disabled selected>Выберите веху</option>
-                                <option value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                        </div>
-                    </div>
-                    <button class="cube-requirements__plus-img"></button>
-                </div>
-            </div>
-            <div class="cube-requirements__list-item">
-                <div class="cube-requirements__item-label  cube-requirements__item-label--color-2">
-                    <span class="cube-requirements__item-span">FUNCTIONAL</span>
-                </div>
-                <div class="cube-requirements__item-content">
-                    <div class="cube-reg-content__task-box cube-requirements__task-box">
-                        <label for="" class="cube-reg-content__label">Требование</label>
-                        <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите функциональное требование">
-                        <label for="" class="cube-reg-content__label">Детали</label>
-                        <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали требования"></textarea>
-                        <label for="" class="cube-reg-content__label">Milestone</label>
-                        <div class="cube-reg-content__select-box cube-requirements__select-box">
-                            <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option value="" disabled selected>Выберите веху</option>
-                                <option value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                        </div>
-                    </div>
-                    <button class="cube-requirements__plus-img"></button>
-                </div>
-            </div>
-            <div class="cube-requirements__list-item">
-                <div class="cube-requirements__item-label  cube-requirements__item-label--color-3">
-                    <span class="cube-requirements__item-span">INTERFACE</span>
-                </div>
-                <div class="cube-requirements__item-content">
-                    <div class="cube-reg-content__task-box cube-requirements__task-box">
-                        <label for="" class="cube-reg-content__label">Требование</label>
-                        <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите требование к интерфейсу">
-                        <label for="" class="cube-reg-content__label">Детали</label>
-                        <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали требования"></textarea>
-                        <label for="" class="cube-reg-content__label">Milestone</label>
-                        <div class="cube-reg-content__select-box cube-requirements__select-box">
-                            <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option value="" disabled selected>Выберите веху</option>
-                                <option value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                        </div>
-                    </div>
-                    <button class="cube-requirements__plus-img"></button>
-                </div>
-            </div>
-        </div>
-        <div class="cube-requirements__example-block">
-            <button class="cube-reg-content__button cube-requirements__button-pass">Пропустить</button>
-            <img src="img/requirements-img.png" alt="" class="cube-requirements__img">
-        </div>
-        <button class="cube-reg-content__button cube-requirements__button-continue">Продолжить</button>
-    </div>
-</div>
-<!---->
-<div class="cube-tasks">
-    <div class="cube-tasks__box cube-reg-content__box">
-        <div class="cube-reg-content__risks">
-            <span class="cube-reg-content__risks-value">100</span><span class="cube-reg-content__risks-percent">%</span>
-            <span class="cube-reg-content__risks-text">риски</span>
-        </div>
-        <div class="cube-reg-content__help">
-            <div class="cube-reg-content__help-text-block">
-                <p class="cube-reg-content__help-question">Требуется помощь?</p>
-                <p class="cube-reg-content__help-contact">
-                    <span class="cube-reg-content__help-span-bold">Авилова Юлия</span> +38(073) 838 22 83
-                </p>
-            </div>
-            <div class="cube-reg-content__help-img-block">
-                <img src="img/cube-help-img.png" alt="" class="cube-reg-content__help-img">
-            </div>
-        </div>
-        <h2 class="cube-reg-content__header">Введите наиболее важные задачи</h2>
-        <p class="cube-reg-content__subheader">Вы указываете время и связи, а система рассчитывает оценочные сроки выполнения проекта</p>
+<footer>
+    footer
+</footer>
 
-        <p class="cube-reg-content__subheader cube-tasks__subheader-task">Задача</p>
-        <p class="cube-reg-content__subheader cube-tasks__subheader-subtask">Подзадача</p>
-
-        <div class="cube-tasks__block-bottom-line">
-
-            <div class="cube-tasks__task-container">
-                <div class="cube-tasks__item-content">
-                    <div class="cube-reg-content__task-box">
-                        <label for="" class="cube-reg-content__label">Задача</label>
-                        <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите задачу">
-                        <label for="" class="cube-reg-content__label">Детали</label>
-                        <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали"></textarea>
-                        <label for="" class="cube-reg-content__label">Реализуемые требования</label>
-                        <div class="cube-reg-content__select-box cube-requirements__select-box">
-                            <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option selected disabled value="">Выберите требование</option>
-                                <option value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                        </div>
-                        <div class="cube-tasks__total-time">
-                            <p>Общее планируемое время: <span class="cube-tasks__total-time-value">10 ч</span></p>
-                        </div>
-                    </div>
-                    <button class="cube-tasks__plus cube-tasks__plus--bottom"></button>
-                    <button class="cube-tasks__plus cube-tasks__plus--right"></button>
-                </div>
-            </div>
-
-            <div class="cube-tasks__subtask-container">
-                <!--<div class="cube-tasks__subtask">
-                    <div class="cube-tasks__item-content">
-                        <div class="cube-reg-content__task-box">
-                            <label for="" class="cube-reg-content__label">Требование</label>
-                            <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Анализ рынка">
-                            <label for="" class="cube-reg-content__label">Детали</label>
-                            <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Анализировать интеграции Github"></textarea>
-                            <label for="" class="cube-reg-content__label">Milestone</label>
-                            <div class="cube-reg-content__select-box cube-requirements__select-box">
-                                <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option selected value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                            </div>
-                            <label for="" class="cube-reg-content__label">Время выполнения </label>
-                            <div class="cube-reg-content__select-box cube-requirements__select-box">
-                                <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option selected value="">1 ч</option>
-                                <option value="">2 ч</option>
-                                <option value="">3 ч</option>
-                            </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <div class="cube-tasks__subtask">
-                    <div class="cube-tasks__item-content">
-                        <div class="cube-reg-content__task-box">
-                            <label for="" class="cube-reg-content__label">Задача</label>
-                            <input type="text" class="cube-reg-content__input cube-requirements__input" placeholder="Введите задачу">
-                            <label for="" class="cube-reg-content__label">Детали</label>
-                            <textarea name="" id="" class="cube-reg-content__textarea" placeholder="Введите детали"></textarea>
-                            <label for="" class="cube-reg-content__label">Реализуемые требования</label>
-                            <div class="cube-reg-content__select-box cube-requirements__select-box">
-                                <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select">
-                                <option selected disabled value="">Выберите требование</option>
-                                <option value="">Alfaversion 22.10.16 </option>
-                                <option value="">Alfaversion 23.10.16 </option>
-                                <option value="">Alfaversion 24.10.16 </option>
-                            </select>
-                            </div>
-                            <label for="" class="cube-reg-content__label">Время выполнения </label>
-                            <div class="cube-reg-content__select-box cube-requirements__select-box">
-                                <select name="" id="" size="1" class="cube-reg-content__select cube-requirements__select cube-tasks__select-time">
-                                <option selected value="1">1 ч</option>
-                                <option value="2">2 ч</option>
-                                <option value="3">3 ч</option>
-                            </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <button class="cube-reg-content__button cube-tasks__button">Продолжить</button>
-    </div>
-</div>
-<!---->
-<!--
-	      ###  FOOTER   ###
-	-->
-
-<div class="cube-reg-footer">
-    <div class="cube-reg-container">
-        <h2 class="cube-reg-content__header">Стратегическое управление IT проектами</h2>
-        <ul class="cube-reg-footer__lang-list">
-            <!--<li class="cube-reg-footer__lang-list-item">en</li>-->
-            <li class="cube-reg-footer__lang-list-item cube-reg-footer__lang-list-item--current">ru</li>
-        </ul>
-        <div class="cube-reg-footer__company-logo"><img src="img/attracti-img.svg" alt="" class="cube-reg-footer__img"></div>
-    </div>
-</div>
-
-
-<script src="js/lib/chroma-js/chroma.min.js"></script>
-<script src="js/main.js"></script>
+<script src="./js/main.js"></script>
 </body>
-
 </html>

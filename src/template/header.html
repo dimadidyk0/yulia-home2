@@ -1,37 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="css/main.css">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-
-<body>
-
-    <!--
-	      ###  HEADER   ###
-	-->
-
-    <div class="cube-reg-header">
-        <div class="cube-reg-container">
-            <img src="img/cube-img.png" alt="" class="cube-reg-header__logo">
-            <ul class="cube-reg-header__nav">
-                <li class="cube-reg-header__item cube-reg-header__item--done">
-                    <a href="registration.html" class="cube-reg-header__item-link">1. РЕГИСТРАЦИЯ</a>
-                </li>
-                <li class="cube-reg-header__item cube-reg-header__item--current">
-                    <a href="new-project.html" class="cube-reg-header__item-link">2. ПРОЕКТ</a>
-                </li>
-                <li class="cube-reg-header__item">
-                    <a href="milestones.html" class="cube-reg-header__item-link">3. ВЕХИ</a>
-                </li>
-                <li class="cube-reg-header__item">
-                    <a href="requirements.html" class="cube-reg-header__item-link">4. ТРЕБОВАНИЯ </a>
-                </li>
-                <li class="cube-reg-header__item">
-                    <a href="tasks.html" class="cube-reg-header__item-link">5. ЗАДАЧИ </a>
-                </li>
-            </ul>
-        </div>
+<div class="main">
+    <div class="pop-up" id="contactPopUp">
+        <div class="pop-up__layout"></div>
+        <form class="pop-up__form" action="" method="POST">
+            <input type="text">
+            <input type="text">
+            <button type="submit">Accept</button>
+            <button type="button" class="pop-up__close">close</button>
+        </form>
     </div>
+
+    <div class="container">
+        <header class="header">
+            <h1 class="header__logo logo">LOGO</h1>
+            
+            <div class="header__controls">
+                <nav class="nav">
+                    <a class="nav__link" href="#">Lorem lorem</a>
+                    <a class="nav__link" href="#">Lorem lorem</a>
+                </nav>
+                <button id="leaveMessageBtn" class="contact-btn header__contact-btn">
+                    Оставить заявку
+                </button>
+            </div>
+        </header>
+    </div>
+</div>

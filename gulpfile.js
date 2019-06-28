@@ -41,7 +41,7 @@ var config = {
     server: {
         baseDir: "./build"
     },
-    tunnel: true,
+    tunnel: false,
     host: 'localhost',
     port: 9000,
     logPrefix: "Dima Didyk"
@@ -102,14 +102,6 @@ gulp.task('fonts:build', function() {
         .pipe(gulp.dest(path.build.fonts))
 });
 
-gulp.task('build', [
-    'html:build',
-    'js:build',
-    'style:build',
-    'fonts:build',
-    'image:build'
-]);
-
 
 gulp.task('watch', function(){
     watch([path.watch.html], function(event, cb) {
@@ -129,5 +121,12 @@ gulp.task('watch', function(){
     });
 });
 
+gulp.task('build', [
+    'html:build',
+    'js:build',
+    'style:build',
+    'fonts:build',
+    'image:build'
+]);
 
 gulp.task('default', ['build', 'webserver', 'watch']);

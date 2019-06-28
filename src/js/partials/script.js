@@ -1,39 +1,41 @@
-var cubeHelpLinkText = document.querySelector('.cube-reg-content__help-question');
-var cubeHelpLinkImg = document.querySelector('.cube-reg-content__help-img');
-var cubeHelpContact = document.querySelector('.cube-reg-content__help-contact');
-cubeHelpLinkText.onclick = function() {
-    if (cubeHelpContact.style.display == "block") {
-        cubeHelpContact.style.display = "none";
-    } else {
-        cubeHelpContact.style.display = "block";
+document.addEventListener('DOMContentLoaded', function() {
+    initPopUps();
+});
+
+function initPopUps() {
+    const leaveMessageBtn = document.getElementById('leaveMessageBtn');
+    if (leaveMessageBtn) {
+        leaveMessageBtn.addEventListener('click', openPopUp.bind(null, 'contactPopUp'));
+    }
+
+    const popUpCollection = document.querySelectorAll('.pop-up') || [];
+    popUpCollection.forEach(popUp => {
+        const id = popUp && popUp.id;
+
+        const handleClosePopUp = closePopUp.bind(null, id)
+        const closeBtn = popUp.querySelector('.pop-up__close');
+        const layout = document.querySelector('.pop-up__layout');
+
+        [closeBtn, layout].forEach(
+            el => el
+                ? el.onclick = handleClosePopUp
+                : null
+        )
+    })
+}
+
+function openPopUp(id) {
+    const popUp = document.getElementById(id);
+    if (popUp) {
+        popUp.style.display = 'block';
+        document.body.style.overflow = 'hidden';
     }
 }
-cubeHelpLinkImg.onclick = function() {
-        if (cubeHelpContact.style.display == "block") {
-            cubeHelpContact.style.display = "none";
-        } else {
-            cubeHelpContact.style.display = "block";
-        }
+
+function closePopUp(id) {
+    const popUp = document.getElementById(id);
+    if (popUp) {
+        popUp.style.display = 'none';
+        document.body.style.overflow = 'auto';
     }
-    // разворачивание и сворачивание кнопки "Нужна помощь?"
-
-
-
-var risksBlock = document.querySelector('.cube-reg-content__risks');
-// risks-block
-var cubeRisksColorArray = chroma.scale(['#199B07', '#FF4A00', '#E80008']).colors(101);
-// made array of colors
-var num = document.querySelector('.cube-reg-content__risks-value').innerHTML;
-// variable for color determiation
-var cubeRisksColor = cubeRisksColorArray[num];
-// variable of risks-block's color
-function changeRisksColor() {
-    var risksBlock = document.querySelector('.cube-reg-content__risks');
-    var cubeRisksColorArray = chroma.scale(['#199B07', '#FF4A00', '#E80008']).colors(101);
-    var num = document.querySelector('.cube-reg-content__risks-value').innerHTML;
-    var cubeRisksColor = cubeRisksColorArray[num];
-    // rewrited data
-    risksBlock.style.color = cubeRisksColor;
-    risksBlock.style.borderColor = cubeRisksColor;
-    // define risks-block's color
 }

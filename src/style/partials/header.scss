@@ -1,51 +1,87 @@
+.main {
+    background-color: black;
+}
+
 // HEADER
-.cube-reg-header {
-    height: 96px;
-    background-color: #0C003B;
-    text-align: center;
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cube-reg-header__logo {
+.header__logo {
+    white-space: nowrap;
+    color: transparent;
+    height: 40px;
+    width: 200px;
+    background-color: #000;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: white;
+    text-transform: none;
+
+    + .nav__link {
+        margin-left: 20px;
+    }
+}
+
+.header__controls {
+    display: flex;
+    align-items: center;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: green;
+    font-weight: bold;
+    color: white;
+}
+
+.header__contact-btn {
+    margin-left: 30px;
+}
+
+// POP-UP
+
+.pop-up {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pop-up__layout {
+    height: 100%;
     position: absolute;
-    left: -81px;
-    height: 34px;
-    width: 31px;
-    margin: 31px 0;
+    width: 100%;
+    background-color: #00000070;
 }
 
-.cube-reg-header__nav {
-    padding: 33px 0;
-}
-
-.cube-reg-header__item {
-    display: inline-block;
-    color: #fff;
-    font: 12px/18px globerbold;
-    height: 30px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    width: 120px;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0 13px 0;
-    vertical-align: top;
+.pop-up__form {
     position: relative;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
 }
-
-.cube-reg-header__item-link {
-    padding: 7px 0 0;
-    box-sizing: border-box;
-    height: 26px;
-    display: block;
-}
-
-.cube-reg-header__item--current {
-    background-color: white;
-    color: #0C003B;
-}
-
-.cube-reg-header__item--done {
-    border-color: #4C446F;
-}
-
-// /HEADER
