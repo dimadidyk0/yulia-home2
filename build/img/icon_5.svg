@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="64px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-246.000000, -2413.000000)">
+            <g id="icon_1" transform="translate(243.000000, 2409.000000)">
+                <rect id="Rectangle" x="0" y="0" width="74" height="74"></rect>
+                <g id="Group-6" transform="translate(1.000000, 6.000000)">
+                    <polygon id="Rectangle" fill="#0698D4" transform="translate(13.814028, 35.823254) rotate(-30.000000) translate(-13.814028, -35.823254) " points="8.99992494 26.3232539 23.5024905 26.3232539 23.5024905 45.3232539 4.50249047 45.3232539 4.12556632 34.7658907"></polygon>
+                    <polygon id="Rectangle" fill="#047BAD" transform="translate(23.140454, 35.823254) rotate(-30.000000) translate(-23.140454, -35.823254) " points="18.3263508 26.3232539 32.8289163 26.3232539 32.8289163 45.3232539 13.8289163 45.3232539 13.4519922 34.7658907"></polygon>
+                    <polygon id="Rectangle-Copy-5" fill="#02648C" transform="translate(33.140454, 35.823254) rotate(-30.000000) translate(-33.140454, -35.823254) " points="28.3263508 26.3232539 42.8289163 26.3232539 42.8289163 45.3232539 23.8289163 45.3232539 23.4519922 34.7658907"></polygon>
+                    <rect id="Rectangle" fill="#3A4046" x="4" y="37.7517816" width="53" height="24" rx="2"></rect>
+                    <circle id="Oval" fill="#FFFFFF" cx="14" cy="49.7517816" r="3"></circle>
+                    <circle id="Oval-Copy" fill="#FFFFFF" cx="25" cy="49.7517816" r="3"></circle>
+                    <circle id="Oval-Copy-2" fill="#FFFFFF" cx="36" cy="49.7517816" r="3"></circle>
+                    <path d="M50.1225257,13.7517816 L62.2621972,13.7517816 C63.3206752,13.7517816 64.1958675,14.5764966 64.2586734,15.6331096 L66.8740646,59.6331096 C66.9396053,60.7357329 66.0988838,61.682717 64.9962605,61.7482577 C64.9567467,61.7506064 64.917172,61.7517816 64.8775885,61.7517816 L48.0943151,61.7517816 C46.9897456,61.7517816 46.0943151,60.8563511 46.0943151,59.7517816 C46.0943151,59.7210715 46.0950224,59.6903655 46.0964365,59.659688 L48.1246471,15.659688 C48.1738601,14.5920604 49.0537644,13.7517816 50.1225257,13.7517816 Z" id="Rectangle" fill="#E8E8E8"></path>
+                    <path d="M4,1.13686838e-13 L49.5,1.13686838e-13 C53.3659932,1.12976666e-13 56.5,3.13400675 56.5,7 L56.5,8.05188669" id="Path-4" stroke="#282828" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M4,8.05188669 L48.0922252,8.05188669" id="Path-5" stroke="#E8E8E8" stroke-width="3" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>       </g>
+                    <path d="M42.0978386,2.1229306 L45,5.05199615" id="Path-8" stroke="#000000" stroke-width="2" stroke-linecap="round" transform="translate(43.548919, 3.587463) scale(-1, 1) translate(-43.548919, -3.587463) "></path>
+                    <path d="M32.8043228,0 L32.8043228,3.92906555" id="Path-8-Copy" stroke="#E8E8E8" stroke-width="2" stroke-linecap="round" transform="translate(32.902161, 2.000000) scale(-1, 1) translate(-32.902161, -2.000000) "></path>
+                    <path d="M20.0978386,2.1229306 L23,5.05199615" id="Path-8" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

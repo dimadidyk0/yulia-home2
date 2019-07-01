@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="511px" height="304px" viewBox="0 0 511 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>illustr_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="40.6227262%" y1="56.0953977%" x2="79.5754815%" y2="37.1491228%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="40.6227262%" y1="55.8770564%" x2="79.5754815%" y2="37.6094499%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-131.000000, -1036.000000)">
+            <g id="illustr_1" transform="translate(131.000000, 1036.000000)">
+                <g id="Group-13-Copy" transform="translate(281.500000, 136.000000) scale(-1, 1) translate(-281.500000, -136.000000) translate(153.000000, 49.000000)">
+                    <g id="Group-13-Copy-3">
+                        <polygon id="Path-16" fill="#02648C" points="87.2799889 21.4909879 87.2799889 68.500614 128.382873 89.8033211 172.088008 65.853184"></polygon>
+                        <polygon id="Path-15" fill="#0698D4" points="0.0968869169 64.7724387 128.5 130.354508 256.561496 65.6002686 129.114343 2.13162821e-14 87.2799889 21.4909879 169.268458 65.6002686 128.349495 86.4518294 45.6648833 42.2974906"></polygon>
+                        <polygon id="Path-13" fill="#11ADEC" points="-3.55271368e-14 64.7724387 -3.55271368e-14 108.045416 127.860919 173.711403 128.382873 130.249357"></polygon>
+                        <polygon id="Path-14" fill="#02648C" points="128.382873 130.249357 127.860919 173.711403 256.561496 107.726777 256.561496 65.6002686"></polygon>
+                    </g>
+                </g>
+                <polygon id="Path-20-Copy" fill="url(#linearGradient-1)" transform="translate(395.000000, 202.000000) scale(-1, -1) translate(-395.000000, -202.000000) " points="423.035521 140 511 182.576926 357.763904 264 279 215.052829"></polygon>
+                <polygon id="Path-21" fill="#F1F1F1" points="22 0 22 44.7636827 281.333333 179 411 110.688379 281.333333 44.7636827 241.786244 62.8048034 324.658244 106.618953 281.333333 131.75714"></polygon>
+                <polygon id="Path-22" fill="#11ADEC" points="281 219 281 262.684426 324 285 367 263.495902"></polygon>
+                <polygon id="Path-20" fill="url(#linearGradient-2)" points="151.640393 156 282 222.925299 128.839442 304 0 234.151301"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

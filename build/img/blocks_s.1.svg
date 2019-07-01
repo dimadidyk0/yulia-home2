@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="362px" height="245px" viewBox="0 0 362 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>blocks_s</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="-2.27373675e-13" width="362" height="245"></rect>
+        <linearGradient x1="40.6227262%" y1="56.1544027%" x2="79.5754815%" y2="37.0247231%" id="linearGradient-3">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="дома" transform="translate(-122.000000, -1314.000000)">
+            <g id="blocks_s" transform="translate(122.000000, 1314.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#F0F0F0" xlink:href="#path-1"></use>
+                <polygon id="Path-20-Copy-2" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="227.95552 77 329.95552 129 227.95552 186 127 129"></polygon>
+                <g id="Group-20-Copy-7" mask="url(#mask-2)">
+                    <g transform="translate(248.000000, 8.000000)">
+                        <polygon id="Path-17" fill="#0698D4" points="0 17.25 102.75 69 102 111 0 59.6678227"></polygon>
+                        <polygon id="Path-18" fill="#1AB2F0" points="0 17.25 34.25 0 137 51.4804688 102.75 69"></polygon>
+                        <polygon id="Path-19" fill="#0577A5" points="102.75 69 102 111 137 94.0333841 137 51.4804687"></polygon>
+                    </g>
+                </g>
+                <g id="Group-20-Copy-8" mask="url(#mask-2)">
+                    <g transform="translate(211.955520, 26.000000)">
+                        <polygon id="Path-17" fill="#0698D4" points="0 17.25 102.75 69 102 111 0 59.6678227"></polygon>
+                        <polygon id="Path-18" fill="#1AB2F0" points="0 17.25 34.25 0 137 51.4804688 102.75 69"></polygon>
+                        <polygon id="Path-19" fill="#0577A5" points="102.75 69 102 111 137 94.0333841 137 51.4804687"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
