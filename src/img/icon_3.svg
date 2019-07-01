@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="33" cy="33" r="33"></circle>
+        <rect id="path-3" x="0" y="0" width="39" height="39"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-861.000000, -2412.000000)">
+            <g id="icon_3" transform="translate(857.000000, 2406.000000)">
+                <rect id="Rectangle-Copy-6" x="0" y="0" width="74" height="74"></rect>
+                <g id="Group-10" transform="translate(4.000000, 6.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <circle stroke="#047BAD" stroke-width="4" cx="33" cy="33" r="31"></circle>
+                    <path d="M33,60 C47.9116882,60 60,47.9116882 60,33 C60,18.0883118 47.9116882,6 33,6 C18.0883118,6 6,18.0883118 6,33 C6,47.9116882 18.0883118,60 33,60 Z" id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2,5" mask="url(#mask-2)"></path>
+                    <g id="Group-11" mask="url(#mask-2)">
+                        <g transform="translate(-6.000000, -4.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path d="M39,64 C53.9116882,64 66,51.9116882 66,37 C66,22.0883118 53.9116882,10 39,10 C24.0883118,10 12,22.0883118 12,37 C12,51.9116882 24.0883118,64 39,64 Z" id="Oval" stroke="#000000" stroke-width="2" fill="none" stroke-dasharray="2,5" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                    <path d="M33,7.55863308 L33,34.5" id="Path-9" stroke="#000000" stroke-width="3" stroke-linecap="round" mask="url(#mask-2)"></path>
+                    <path d="M33,34.5 L45.6321642,34.5" id="Path-10" stroke="#000000" stroke-width="3" stroke-linecap="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
