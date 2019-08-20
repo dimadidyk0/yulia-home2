@@ -305,6 +305,7 @@ body {
         position: absolute;
         opacity: 0;
         transition: all 0.3s ease-in;
+        width: 100%;
 
         &.active {
             opacity: 1;
@@ -386,7 +387,8 @@ body {
     align-items: flex-start;
 
     &__img {
-        width: auto;
+        height: 106px;
+        width: 106px;
     }
 
     &__title {
@@ -399,12 +401,13 @@ body {
     }
 
     &__text {
-        padding-top: 7px;
+        height: 69px;
+        width: 275px;
         color: #23272B;
+        font-family: Montserrat;
         font-size: 14px;
         letter-spacing: 0.61px;
         line-height: 23px;
-        width: 230px;
     }
 }
 
@@ -520,6 +523,21 @@ body {
         display: flex;
         justify-content: space-between;
         width: 100%;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link-item {
+        padding: 0 15px;
+        color: #242B33;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+        line-height: 36px;
     }
     
     &__langs,
@@ -972,7 +990,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1679px) {
     .container {
         width: 1024px;
     }
@@ -1078,11 +1096,41 @@ body {
         padding-top: 105px;
         padding-bottom: 50px;
     }
+
+    .footer__container {
+        padding: 0 62px;
+        box-sizing: border-box;
+    }
+
+    .pros__list {
+        justify-content: space-between;
+    }
+
+    .pros-item {
+        width: 290px;
+    }
+
+    .main {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .house__container {
+        overflow: hidden;
+    }
+
+    .footer__link-item {
+        padding: 0 37px;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .container {
         width: 100%;
+    }
+
+    .logo img {
+        width: 168px;
     }
 
     .main__container {
@@ -1123,10 +1171,6 @@ body {
         margin: 0 0 60px 0;
     }
 
-    .construction {
-        height: 350px;
-    }
-
     .construction__container {
         position: relative;
     }
@@ -1134,13 +1178,6 @@ body {
     .construction__text {
         left: 0;
         padding: 0 0 0 24px;
-    }
-
-    .construction__img {
-        position: absolute;
-        left: auto;
-        right: 0;
-        top: 155px;    
     }
 
     .house__customize {
@@ -1189,11 +1226,6 @@ body {
     .pros {
         padding-top: 0;
         padding-bottom: 40px;
-    }
-
-    .pros__list {
-        flex-direction: column;
-        align-items: center;
     }
 
     .pros__title {
@@ -1372,7 +1404,7 @@ body {
     }
 
     .construction {
-        padding: 46px 0 118px;
+        padding: 145px 0 118px;
     }
 
     .construction__text {
@@ -1380,8 +1412,10 @@ body {
     }
 
     .construction__subtitle {
-        font-size: 12px;
-        width: 291px;
+        width: 658px;
+        font-size: 28px;
+        letter-spacing: 1.23px;
+        line-height: 47px;
     }
 
     .construction__img {
@@ -1395,16 +1429,45 @@ body {
     }
 
     .house__customize-subtitle {
-        padding-top: 4px;
+    height: 235px;
+    width: 658px;
+    color: #23272B;
+    font-family: Montserrat;
+    font-size: 28px;
+    letter-spacing: 1.23px;
+    line-height: 47px;
     }
 
     .construction__title {
-        width: 80%;
-        line-height: 27px;
+        height: 148px;
+        width: 558px;
+        color: #23272B;
+        font-size: 46px;
+        font-weight: bold;
+        letter-spacing: 2.01px;
+        line-height: 62px;
+        padding: 0;
+    }
+
+    .construction__container {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .construction__img {
+        position: relative;
+        width: 760px;
+        order: 1;
+        top: 0;
+        right: -80px;
+        margin-top: 90px;
+        left: auto;
     }
 
     .house__customize {
-        height: 401px;
+        height: auto;
     }
 
     .test-drive__left, .test-drive__right {
@@ -1412,7 +1475,7 @@ body {
     }
 
     .container {
-        width: 480px;
+        width: 720px;
     }
 
     .main__container {
@@ -1431,27 +1494,35 @@ body {
 
     .dream-promo__title {
         margin-top: 77px;
-        width: 403px;
-        font-size: 30px;
+        width: 550px;
+        color: rgba(255,255,255,0.9);
+        font-family: Montserrat;
+        font-size: 46px;
         font-weight: bold;
-        letter-spacing: 1.31px;
-        line-height: 31px;
+        letter-spacing: 2.01px;
+        line-height: 62px;
+        text-align: center;
         padding: 0;
     }
 
     .dream-promo__phone {
-        margin-top: 38px;
-        margin-bottom: 38px;
-        font-size: 22px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 23px;
+        width: 345px;
+        font-size: 44px;
+        font-weight: bold;
+        letter-spacing: 1.92px;
+        line-height: 23px;
     }
 
     .dream-promo__button {
-        margin-bottom: 80px;
-        height: 60px;
-        width: 315px;
-        font-size: 14px;
+        margin-bottom: 110px;
+        height: 80px;
+        width: 526px;
+        font-size: 22px;
+        font-weight: 600;
     }
-
 
     .pros {
         padding-top: 0;
@@ -1492,6 +1563,248 @@ body {
         display: flex;
         align-items: baseline;
         justify-content: center;
-    }    
+    }
 }
 
+
+@media screen and (max-width: 1023px) {
+    .main__content--left {
+        padding-top: 490px;
+        padding-left: 0;
+    }
+
+    .main__button-text {
+        margin: 0;
+        font-size: 22px;
+        letter-spacing: 0.96px;
+        line-height: 23px;
+        width: auto;
+    }
+
+    .main__left {
+        height: 1200px;
+    }
+
+    .main__right {
+        height: 1245px;
+    }
+    .main__title {
+        width: 550px;
+        font-size: 100px;
+        font-weight: bold;
+        letter-spacing: 1.38px;
+        line-height: 76px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 70px;
+    }
+    
+    .main__button {
+        height: 80px;
+        width: 318px;
+        justify-content: center;
+        margin: 0 auto;
+        
+        .main__button-arrow {
+            display: none;
+        }
+    }
+
+    .main--active {
+        .main__button {
+            height: 80px;
+            width: 526px;
+            margin: 0 auto;
+            padding-left: 28px;
+            padding-right: 28px;
+            justify-content: space-between;
+
+            .main__button-arrow {
+                position: relative;
+                display: block;
+                left: 0;
+                right: 0;
+            }  
+        }  
+    }
+
+    .main__button-arrow img {
+        width: 36px;
+    }
+
+    .main__content--right {
+        padding-left: 0;
+        padding-top: 500px;
+
+        .main__title {
+            padding: 0;
+            height: 212px;
+            padding-bottom: 69px;
+        }
+    }
+
+    .house__customize-title {
+        padding-top: 116px;
+        width: 469px;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-weight: bold;
+        letter-spacing: 2.27px;
+        line-height: 62px;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .house__customize-subtitle {
+        width: 531px;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 28px;
+        letter-spacing: 1.23px;
+        line-height: 47px;
+        text-align: center;
+        padding: 0;
+        height: auto;
+        padding-bottom: 117px;
+    }
+
+    .house__customize {
+        position: relative;
+        z-index: 2;
+    }
+
+    .house__index {
+        background-color: #242B33;
+        top: auto;
+        top: 100%;
+    }
+
+    .house__slider {
+        height: 513px;
+    }
+
+    .house__main-info {
+        height: 195px;
+        padding-top: 36px;
+        padding-left: 39px;
+    }
+
+    .house__title {
+        width: 507px;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 46px;
+        font-weight: bold;
+        letter-spacing: 2.01px;
+        line-height: 62px;
+        padding-right: 8px;
+    }
+
+    .house__square {
+        width: 157px;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 2.18px;
+        line-height: 40px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .house__button {
+        top: auto;
+        bottom: 170px;
+        right: 43px;
+        height: 77px;
+        width: 77px;
+        background: #242B33;
+    }
+
+
+    .animation-wrapper {
+        width: 78px; /* Set the size of the progress bar */
+        height: 78px;
+        position: absolute;
+    }
+
+    .animation-wrapper.active {
+        clip: rect(0px, 78px, 78px, 37px); /* Hide half of the progress bar */
+        /* Set the sizes of the elements that make up the progress bar */
+        .circle {
+            width: 74px;
+            height: 74px;
+            border: 2px solid #0698D4;
+            border-radius: 40px;
+            clip: rect(0px, 40px, 78px, 0px);
+        }
+    }
+
+    .container.pros__container {
+        padding-top: 132px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .pros__title {
+        color: #23272B;
+        font-family: Montserrat;
+        font-size: 46px;
+        font-weight: bold;
+        letter-spacing: 2.01px;
+        line-height: 23px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .pros__list {
+        padding-top: 115px;
+    }
+
+    .pros__item {
+        display: flex;
+        align-items: baseline;
+        width: 310px;
+    }
+
+    .pros-item__img {
+        height: 132px;
+        width: 132px;
+        padding-bottom: 32px;
+    }
+
+    .pros-item__title {
+        padding: 0;
+        height: 76px;
+        width: 293px;
+        color: rgba(0,0,0,0.97);
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1.23px;
+        line-height: 38px;
+        text-align: left;
+        padding-bottom: 22px;
+    }
+
+    .pros-item__text {
+        height: auto;
+        width: 310px;
+        color: #23272B;
+        font-family: Montserrat;
+        font-size: 16px;
+        letter-spacing: 0.7px;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .pros {
+        padding-bottom: 175px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .pros__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

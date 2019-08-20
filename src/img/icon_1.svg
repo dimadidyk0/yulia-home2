@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="65px" height="64px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>icon_1</title>
+    <title>proizvodim_nafabrike</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="главная" transform="translate(-246.000000, -2413.000000)">
-            <g id="icon_1" transform="translate(243.000000, 2409.000000)">
-                <rect id="Rectangle" x="0" y="0" width="74" height="74"></rect>
-                <g id="Group-6" transform="translate(1.000000, 6.000000)">
-                    <polygon id="Rectangle" fill="#0698D4" transform="translate(13.814028, 35.823254) rotate(-30.000000) translate(-13.814028, -35.823254) " points="8.99992494 26.3232539 23.5024905 26.3232539 23.5024905 45.3232539 4.50249047 45.3232539 4.12556632 34.7658907"></polygon>
-                    <polygon id="Rectangle" fill="#047BAD" transform="translate(23.140454, 35.823254) rotate(-30.000000) translate(-23.140454, -35.823254) " points="18.3263508 26.3232539 32.8289163 26.3232539 32.8289163 45.3232539 13.8289163 45.3232539 13.4519922 34.7658907"></polygon>
-                    <polygon id="Rectangle-Copy-5" fill="#02648C" transform="translate(33.140454, 35.823254) rotate(-30.000000) translate(-33.140454, -35.823254) " points="28.3263508 26.3232539 42.8289163 26.3232539 42.8289163 45.3232539 23.8289163 45.3232539 23.4519922 34.7658907"></polygon>
-                    <rect id="Rectangle" fill="#3A4046" x="4" y="37.7517816" width="53" height="24" rx="2"></rect>
-                    <circle id="Oval" fill="#FFFFFF" cx="14" cy="49.7517816" r="3"></circle>
-                    <circle id="Oval-Copy" fill="#FFFFFF" cx="25" cy="49.7517816" r="3"></circle>
-                    <circle id="Oval-Copy-2" fill="#FFFFFF" cx="36" cy="49.7517816" r="3"></circle>
-                    <path d="M50.1225257,13.7517816 L62.2621972,13.7517816 C63.3206752,13.7517816 64.1958675,14.5764966 64.2586734,15.6331096 L66.8740646,59.6331096 C66.9396053,60.7357329 66.0988838,61.682717 64.9962605,61.7482577 C64.9567467,61.7506064 64.917172,61.7517816 64.8775885,61.7517816 L48.0943151,61.7517816 C46.9897456,61.7517816 46.0943151,60.8563511 46.0943151,59.7517816 C46.0943151,59.7210715 46.0950224,59.6903655 46.0964365,59.659688 L48.1246471,15.659688 C48.1738601,14.5920604 49.0537644,13.7517816 50.1225257,13.7517816 Z" id="Rectangle" fill="#E8E8E8"></path>
-                    <path d="M4,1.13686838e-13 L49.5,1.13686838e-13 C53.3659932,1.12976666e-13 56.5,3.13400675 56.5,7 L56.5,8.05188669" id="Path-4" stroke="#282828" stroke-width="3" stroke-linecap="round"></path>
-                    <path d="M4,8.05188669 L48.0922252,8.05188669" id="Path-5" stroke="#E8E8E8" stroke-width="3" stroke-linecap="round"></path>
+    <defs>
+        <rect id="path-1" x="16" y="16" width="74" height="74"></rect>
+        <linearGradient x1="46.482561%" y1="-80.5105163%" x2="46.482561%" y2="45.6870768%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.0119919143" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.361642264" offset="43.5810811%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.899393575" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-20.0%" y="-41.2%" width="140.0%" height="182.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-240.000000, -2408.000000)">
+            <g id="proizvodim_nafabrike" transform="translate(240.000000, 2408.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-Copy-9" fill="#F1F1F1" transform="translate(53.000000, 53.000000) rotate(-45.000000) translate(-53.000000, -53.000000) " xlink:href="#path-1"></use>
+                <g id="icon_1" mask="url(#mask-2)">
+                    <g transform="translate(10.500000, 15.000000)">
+                        <rect id="Rectangle" x="0.5" y="0" width="83" height="83"></rect>
+                        <g id="Group-6" stroke-width="1" fill-rule="evenodd" transform="translate(2.500000, 6.000000)">
+                            <polygon id="Rectangle" fill="#0698D4" transform="translate(15.461281, 40.431793) rotate(-30.000000) translate(-15.461281, -40.431793) " points="10.0879206 29.7576886 26.337949 29.6861919 26.2442802 51.0837251 4.95490636 51.1773939 4.58461248 39.2896979"></polygon>
+                            <polygon id="Rectangle" fill="#047BAD" transform="translate(25.884933, 40.431793) rotate(-30.000000) translate(-25.884933, -40.431793) " points="20.5115731 29.7576886 36.7616014 29.6861919 36.6679326 51.0837251 15.3785588 51.1773939 15.0082649 39.2896979"></polygon>
+                            <polygon id="Rectangle-Copy-5" fill="#02648C" transform="translate(37.061404, 40.431793) rotate(-30.000000) translate(-37.061404, -40.431793) " points="31.6880436 29.7576886 47.938072 29.6861919 47.8444032 51.0837251 26.5550294 51.1773939 26.1847355 39.2896979"></polygon>
+                            <rect id="Rectangle" fill="#FFFFFF" x="4.47058824" y="42.6229792" width="59.2352941" height="27.0967742" rx="2"></rect>
+                            <ellipse id="Oval" fill="#02648C" cx="15.6470588" cy="56.1713663" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy" fill="#02648C" cx="27.9411765" cy="56.1713663" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy-2" fill="#02648C" cx="40.2352941" cy="56.1713663" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <path d="M55.7954825,15.526205 L69.807757,15.526205 C70.8666959,15.526205 71.7421019,16.3516151 71.8043036,17.4087256 L74.7577577,67.6022739 C74.8226398,68.7049362 73.9813527,69.6514179 72.8786904,69.7163 C72.8395729,69.7186018 72.8003962,69.7197534 72.761211,69.7197534 L53.5051075,69.7197534 C52.400538,69.7197534 51.5051075,68.8243229 51.5051075,67.7197534 C51.5051075,67.6893526 51.5058007,67.6589557 51.5071865,67.6285865 L53.7975615,17.4350381 C53.8462956,16.3670293 54.7263624,15.526205 55.7954825,15.526205 Z" id="Rectangle" fill="#0698D4"></path>
+                            <path d="M4.47058824,1.13686838e-13 L56.1470588,1.13686838e-13 C60.0130521,1.12976666e-13 63.1470588,3.13400675 63.1470588,7 L63.1470588,9.09083981" id="Path-4" stroke="#242B33" stroke-width="3" stroke-linecap="round"></path>
+                            <path d="M4.47058824,9.09083981 L53.750134,9.09083981" id="Path-5" stroke="#E8E8E8" stroke-width="3" stroke-linecap="round"></path>
+                        </g>
+                    </g>
                 </g>
+                <rect id="Rectangle" fill="url(#linearGradient-3)" filter="url(#filter-4)" mask="url(#mask-2)" x="4" y="79" width="105" height="51"></rect>
             </g>
         </g>
     </g>

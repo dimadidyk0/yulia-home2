@@ -1,35 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="65px" height="63px" viewBox="0 0 65 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>icon_2</title>
+    <title>6nedel</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="0.648328196 12.8487377 13.8612079 0.0269168557 51.7751862 0.0269168557 64.8676904 12.8487377 33 48.585392"></polygon>
+        <rect id="path-1" x="16" y="16" width="74" height="74"></rect>
+        <linearGradient x1="46.482561%" y1="-80.5105163%" x2="46.482561%" y2="45.6870768%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.0119919143" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.361642264" offset="43.5810811%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.899393575" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-20.0%" y="-41.2%" width="140.0%" height="182.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="главная" transform="translate(-553.000000, -2413.000000)">
-            <g id="icon_2" transform="translate(550.000000, 2406.000000)">
-                <rect id="Rectangle-Copy-4" x="0" y="0" width="74" height="74"></rect>
-                <g id="Group-9" transform="translate(3.000000, 8.000000)">
-                    <g id="Group-8" transform="translate(0.000000, 13.414608)">
-                        <mask id="mask-2" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <use id="Path-6" fill-opacity="0.573918269" fill="#282828" xlink:href="#path-1"></use>
-                        <polygon id="Triangle" fill="#0698D4" mask="url(#mask-2)" transform="translate(33.035561, 30.792696) scale(1, -1) translate(-33.035561, -30.792696) " points="33 13.585392 43.023707 48 23.0474141 48"></polygon>
-                        <polygon id="Triangle" fill="#E8E8E8" mask="url(#mask-2)" points="11.9974907 -3 23 13.585392 -2 13.585392"></polygon>
-                        <polygon id="Triangle-Copy" fill="#3A4046" mask="url(#mask-2)" transform="translate(55.500000, 5.292696) scale(-1, 1) translate(-55.500000, -5.292696) " points="56.9974907 -3 68 13.585392 43 13.585392"></polygon>
-                        <polygon id="Triangle-Copy-2" fill="#0698D4" mask="url(#mask-2)" transform="translate(44.652282, 2.292696) scale(1, -1) translate(-44.652282, -2.292696) " points="43 -9 58.0474141 13.585392 31.2571509 7.32006048"></polygon>
-                        <polygon id="Triangle-Copy-2" fill="#0698D4" mask="url(#mask-2)" transform="translate(21.697599, 2.292696) scale(-1, -1) translate(-21.697599, -2.292696) " points="20.3477842 -9 35.3951983 13.585392 8 7.58539195"></polygon>
-                        <polygon id="Triangle" fill="#FFFFFF" mask="url(#mask-2)" points="33.0355605 -0.250899642 43.023707 13.585392 23.0474141 13.585392"></polygon>
-                        <polygon id="Path-2" fill="#3A4046" mask="url(#mask-2)" points="23 13.585392 33.0355605 48 0.648328196 13.585392"></polygon>
-                        <polygon id="Path-3" fill="#047BAD" mask="url(#mask-2)" points="43.023707 13.585392 60.9413014 13.585392 32.7580093 48.585392"></polygon>
-                        <polygon id="Path-7" fill="#1F1F1F" mask="url(#mask-2)" points="60.9413014 13.585392 65 13.585392 33.0355605 48.585392"></polygon>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-548.000000, -2408.000000)">
+            <g id="6nedel" transform="translate(548.000000, 2408.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-Copy-9" fill="#F1F1F1" transform="translate(53.000000, 53.000000) rotate(-45.000000) translate(-53.000000, -53.000000) " xlink:href="#path-1"></use>
+                <g id="calendar-(3)" mask="url(#mask-2)">
+                    <g transform="translate(22.000000, 33.000000)">
+                        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="0.148148148 4 62.1481481 4 62.1481481 58 0.148148148 58"></polygon>
+                        <path d="M2.14814815,4 L60.1481481,4 C61.2527176,4 62.1481481,4.8954305 62.1481481,6 L62.1481481,19 L0.148148148,19 L0.148148148,6 C0.148148148,4.8954305 1.04357865,4 2.14814815,4 Z" id="Path" fill="#0698D4" fill-rule="nonzero"></path>
+                        <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(11.148148, 27.000000)">
+                            <ellipse id="Oval-Copy-2" fill="#02648C" cx="4.20479303" cy="3.38709677" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy-3" fill="#02648C" cx="19.204793" cy="3.38709677" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy-4" fill="#02648C" cx="34.204793" cy="3.38709677" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy-5" fill="#02648C" cx="34.204793" cy="18.3870968" rx="3.35294118" ry="3.38709677"></ellipse>
+                            <ellipse id="Oval-Copy-6" fill="#02648C" cx="19.204793" cy="18.3870968" rx="3.35294118" ry="3.38709677"></ellipse>
+                        </g>
+                        <polygon id="Path" fill="#0698D4" fill-rule="nonzero" points="13.8459959 49 11 46.0578927 12.486653 44.5210343 13.8459959 45.9262833 21.513347 38 23 39.5368584"></polygon>
+                        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="5.14814815 14 14.1481481 14 14.1481481 16 5.14814815 16"></polygon>
+                        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="18.1481481 14 20.1481481 14 20.1481481 16 18.1481481 16"></polygon>
+                        <polygon id="Path" fill="#242B33" fill-rule="nonzero" points="29.1481481 0 33.1481481 0 33.1481481 9 29.1481481 9"></polygon>
+                        <polygon id="Path" fill="#242B33" fill-rule="nonzero" points="40.1481481 0 44.1481481 0 44.1481481 9 40.1481481 9"></polygon>
+                        <polygon id="Path" fill="#242B33" fill-rule="nonzero" points="8.14814815 0 12.1481481 0 12.1481481 9 8.14814815 9"></polygon>
+                        <polygon id="Path" fill="#242B33" fill-rule="nonzero" points="18.1481481 0 22.1481481 0 22.1481481 9 18.1481481 9"></polygon>
+                        <polygon id="Path" fill="#242B33" fill-rule="nonzero" points="50.1481481 0 54.1481481 0 54.1481481 9 50.1481481 9"></polygon>
                     </g>
-                    <path d="M42.0978386,2.1229306 L45,5.05199615" id="Path-8" stroke="#000000" stroke-width="2" stroke-linecap="round" transform="translate(43.548919, 3.587463) scale(-1, 1) translate(-43.548919, -3.587463) "></path>
-                    <path d="M32.8043228,0 L32.8043228,3.92906555" id="Path-8-Copy" stroke="#E8E8E8" stroke-width="2" stroke-linecap="round" transform="translate(32.902161, 2.000000) scale(-1, 1) translate(-32.902161, -2.000000) "></path>
-                    <path d="M20.0978386,2.1229306 L23,5.05199615" id="Path-8" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
                 </g>
+                <rect id="Rectangle" fill="url(#linearGradient-3)" filter="url(#filter-4)" mask="url(#mask-2)" x="-2.27373675e-13" y="79" width="105" height="51"></rect>
             </g>
         </g>
     </g>
