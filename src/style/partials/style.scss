@@ -148,6 +148,7 @@ body {
 
 .construction {
     padding: 81px 0 92px;
+    overflow: hidden;
 
     &__container {
         display: flex;
@@ -411,6 +412,7 @@ body {
 
 .test-drive {
     background-color: #242B33;
+    overflow: hidden;
 
     &__container {
         display: flex;
@@ -534,6 +536,7 @@ body {
         line-height: 36px;
         margin-right: 14px;
         text-transform: uppercase;
+        background-color: transparent;
         
     }
     &__lang-btn--active {
@@ -717,3 +720,778 @@ body {
         padding-top: 41px;
     }
 }
+
+.house-card {
+
+    &__block {
+        position: relative;
+        width: 1433px;
+        margin: 0 auto;
+    }
+
+    &__slider_img {
+        width: 100%;
+        height: 600px;
+        background-color: gray;
+        display: block;
+    }
+
+    &__number {
+        position: absolute;
+        top: 0;
+        text-transform: uppercase;
+        background-color: #3B3B3B;
+        font-weight: bold;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 0 27px 36px 0;
+        box-sizing: border-box;
+        font-size: 60px;
+        letter-spacing: 1.2px;
+        color: #fff;
+    }
+
+    &__info {
+        position: absolute;
+        top: 173px;
+        right: 8px;
+        background-color: #0698D4;
+        width: 440px;
+        color: #fff;
+    }
+
+    &__info_img {
+        width: 100%;
+        display: block;
+        height: 283px;
+        background-color: #fff;
+    }
+
+    &__info_inside {
+        position: absolute;
+        top: 0;
+        color: #fff;
+        background-color: #0698D4;
+        width: 69%;
+        padding: 13px 0 12px 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        box-sizing: border-box;
+        letter-spacing: 0.5px;
+    }
+
+    &__info_price_box {
+        display: flex;
+        padding: 56px 0 0 31px;
+    }
+
+    &__info_meter {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    &__info_price {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 6px;
+        font-size: 25px;
+        padding-left: 39px;
+        letter-spacing: 1.4px;
+    }
+
+    &__info_text {
+        padding: 23px 0 0 31px;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        width: 80%;
+        line-height: 19px;
+    }
+
+    &__info_btn_box {
+        padding: 23px 0 43px 29px;
+    }
+
+    &__info_btn {
+        width: 153px;
+        color: #fff;
+        background-color: #0698D4;
+        text-transform: uppercase;
+        padding: 11px 0;
+        font-size: 13px;
+        border: 1px solid #fff;
+        margin-right: 13px;    
+    }
+
+    &__info_btn:hover {
+        color: #0698D4;
+        background-color: #fff;
+        border: 1px solid #0698D4;
+    }
+
+    &__map_slider {
+        display: flex;
+        width: 870px;
+        justify-content: space-between;
+        margin: 39px 0 40px 18px;
+    }
+
+    &__map_img {
+        width: 208px;
+        height: 105px;
+        background-color: gray;
+    }
+    
+}
+
+.soon {
+    position: relative;
+    width: 1433px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+.soon__ {
+    &slider {
+        overflow: hidden;
+    }    
+
+    &slider_img {
+        width: 100%;
+        height: 600px;
+        filter: blur(6px);
+    }
+
+    &info {
+        position: absolute;
+        top: 317px;
+        right: 13px;
+        background-color: #fff;
+        width: 440px;
+        color: #3B3B3B;
+    }
+
+    &info_price_box {
+        display: flex;
+        padding: 56px 0 0 31px;
+    }
+
+    &info_meter {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    &info_price {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 6px;
+        font-size: 25px;
+        padding-left: 39px;
+        letter-spacing: 1.4px;
+    }
+
+    &info_btn {
+        color: #fff;
+        background-color: #0698D4;
+        text-transform: uppercase;
+        margin: 21px 0 43px 26px;
+        width: 280px;
+        font-size: 14px;
+        padding: 12px 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main__title {
+        font-size: 75px;
+    }
+
+    .main__button {
+        margin-left: 65px;
+    }
+
+    .main__content {
+        padding-left: 74px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .dream-promo {
+        padding: 0 30px;
+    }
+
+    .dream-promo__title {
+        width: 37%;
+        line-height: 31px;
+    }
+
+    .dream-promo__phone {
+        margin-left: 0;
+    }
+
+    .house__customize {
+        position: relative;
+        left: 1px;
+        height: 373px;
+        width: 461px;
+    }
+
+    .house__slider {
+        right: 24px;
+        height: 468px;
+        width: 774px;
+    }
+
+    .house__customize-title {
+        padding-top: 99px;
+    }
+
+    .pros__list {
+        flex-wrap: wrap;
+    }
+
+    .pros-item {
+        width: 50%;
+    }
+
+    .pros__container {
+        padding-left: 30px;
+    }
+
+    .test-drive__left, .test-drive__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test-drive__title {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .container {
+        width: 1024px;
+    }
+
+    .main__title {
+        font-size: 70px;
+    }
+    .main__button {
+        margin-left: 120px;
+    }
+
+    .dream-promo {
+        height: auto;
+    }
+
+    .dream-promo__title {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1.31px;
+        line-height: 35px;
+        width: 439px;
+        padding-left: 60px;
+        margin: 70px 0;
+    }
+
+    .dream-promo__button {
+        margin-right: 60px;
+        margin-left: 40px;
+    }
+
+    .dream-promo__phone {
+        margin-left: auto;
+    }
+
+    .construction {
+        padding-top: 28px;
+        padding-bottom: 72px;
+    }
+
+    .house__customize {
+        width: 370px;
+        height: 370px;
+        left: 0;
+    }
+
+    .house__customize-title {
+        padding-top: 95px;
+        font-size: 46px;
+    }
+
+    .house__slider {
+        height: 467px;
+        width: 655px;
+        right: 0;
+    }
+
+    .house__main-info {
+        left: 215px;
+        height: 235px;
+        width: 325px;
+    }
+
+    .house__container {
+        padding-bottom: 0;
+    }
+
+    .pros__container {
+        padding-left: 138px;
+        padding-right: 138px;
+        box-sizing: border-box;
+    }
+
+    .pros {
+        padding-top: 110px;
+        padding-bottom: 35px;
+    }
+
+    .pros__list {
+        flex-wrap: wrap;
+    }
+
+    .pros-item {
+        width: 50%;
+        padding-bottom: 55px;
+    }
+
+    .pros-item__text {
+        width: 285px;
+    }
+
+    .test-drive__left {
+        padding-left: 60px;
+        width: 55%;
+        padding-bottom: 188px;
+        padding-top: 208px;
+    }
+
+    .test-drive__right {
+        width: 45%;
+    }
+
+    .footer {
+        padding-top: 105px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .main__container {
+        flex-direction: column;
+    }
+
+    .main__left, .main__right {
+        width: 100%;
+    }
+
+    .main__left-img,
+    .main__right-img {
+        width: 100%;
+    }
+
+    .main__title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .main__button {
+        margin: 21px auto;
+    }
+
+    .dream-promo__container {
+        flex-direction: column;
+    }
+
+    .dream-promo__title {
+        margin: 80px 0 0 0;
+    }
+
+    .dream-promo__phone {
+        margin: 34px 0;
+    }
+
+    .dream-promo__button {
+        margin: 0 0 60px 0;
+    }
+
+    .construction {
+        height: 350px;
+    }
+
+    .construction__container {
+        position: relative;
+    }
+
+    .construction__text {
+        left: 0;
+        padding: 0 0 0 24px;
+    }
+
+    .construction__img {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 155px;    
+    }
+
+    .house__customize {
+        width: 100%;
+        left: auto;
+        padding: 0;
+    }
+
+    .house__slider {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        top: auto;
+        right: auto;
+        height: 324px;
+    }
+
+    .house__img {
+        width: 100%;
+    }
+
+    .house__index {
+        right: auto;
+        left: 0;
+    }
+
+    .house__main-info {
+        width: 100%;
+        left: auto;
+    }
+
+    .house__info {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .house__title {
+        display: flex;
+        align-items: center;
+    }
+
+    .house__square {
+        align-self: auto;
+    }
+
+    .pros {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .pros__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pros__title {
+        text-align: center;
+    }
+
+    .pros-item {
+        align-items: center;
+        padding-bottom: 45px;
+    }
+
+    .pros-item__text {
+        text-align: center;
+    }
+
+    .test-drive__container {
+        flex-direction: column;
+    }
+
+    .test-drive__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test-drive__text {
+        text-align: center;
+        width: 61%;
+    }
+
+    .test-drive__form {
+        align-items: center;
+    }
+
+    .test-drive__submit {
+        width: 290px;
+    }
+
+    .test-drive__form-info {
+        text-align: center;
+        width: 56%;
+        margin-top: 32px;
+    }
+
+    .test-drive__right {
+        width: 100%;
+    }
+
+    .footer__actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__lang-btn:last-of-type {
+        margin-right: 0;
+    }
+
+    .footer__social-link {
+        margin-right: 32px;
+        margin-left: 0;
+    }
+
+    .footer__social-link:last-of-type {
+        margin-right: 0;
+    }
+
+    .footer__socials {
+        margin-top: 15px;
+    }
+
+    .footer__text {
+        line-height: 26px;
+        width: 36%;
+        margin-top: 34px;
+    }
+
+    .main__content--right {
+        padding-left: 0;
+    }
+
+    .main__title {
+        font-size: 60px;
+        line-height: 56px;
+        width: 449px;
+    }
+
+    .main__button-arrow {
+        left: 235px;
+    }
+
+    .main--active .main__button {
+        width: 270px;
+    }
+
+    .dream-promo__title {
+        font-size: 24px;
+        line-height: 11px;
+    }
+
+    .dream-promo__phone {
+        font-size: 17px; 
+        margin: 25px 0;
+    }
+
+    .dream-promo__button {
+        margin: 0 0 50px 0;
+    }
+
+    .construction__title {
+        font-size: 24px;
+    }
+
+    .construction__subtitle {
+        width: 335px;
+    }
+
+    .construction__img {
+        right: -21px;
+        top: 183px;
+        width: 400px;
+    }
+
+    .house__customize-title {
+        font-size: 40px;
+    }
+
+    .pros-item__title {
+        text-align: center;
+    }
+
+    .dream-promo__title {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .house__customize-title {
+        font-size: 31px;
+    }
+
+    .house__customize-subtitle {
+        font-size: 12px;
+    }
+
+    .footer__lang-btn {
+        font-size: 13px;
+    }
+
+    .footer__text {
+        font-size: 12px;
+    }
+
+    .main__title {
+        width: auto;
+    }
+
+    .main--active .main__button {
+        width: 200px;
+    }
+
+    .main__button-text {
+        width: 124px;
+    }
+
+    .main__button-arrow {
+        left: 166px;
+    }   
+
+    .dream-promo__title {
+        font-size: 14px;
+    }
+
+    .dream-promo__phone {
+        font-size: 13px;
+        margin: 14px 0;
+    }
+
+    .construction {
+        padding: 46px 0 118px;
+    }
+
+    .construction__text {
+        padding: 0 0 0 14px;
+    }
+
+    .construction__subtitle {
+        font-size: 12px;
+        width: 291px;
+    }
+
+    .construction__img {
+        right: -37px;
+        top: 204px;
+        width: 350px;
+    }
+
+    .house__customize-title {
+        font-size: 25px;
+    }
+
+    .house__customize-subtitle {
+        padding-top: 4px;
+    }
+
+    .construction__title {
+        width: 80%;
+        line-height: 27px;
+    }
+
+    .house__customize {
+        height: 401px;
+    }
+
+    .test-drive__left, .test-drive__right {
+        width: 100%;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .main__container {
+        width: 100%;
+    }
+
+    .pros__container {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 64px;
+    }
+
+    .dream-promo {
+        padding: 0;
+    }
+
+    .dream-promo__title {
+        margin-top: 77px;
+        width: 403px;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1.31px;
+        line-height: 31px;
+        padding: 0;
+    }
+
+    .dream-promo__phone {
+        margin-top: 38px;
+        margin-bottom: 38px;
+        font-size: 22px;
+    }
+
+    .dream-promo__button {
+        margin-bottom: 80px;
+        height: 60px;
+        width: 315px;
+        font-size: 14px;
+    }
+
+
+    .pros {
+        padding-top: 0;
+        padding-bottom: 93px;
+    }
+
+    .test-drive__left {
+        padding: 60px 30px 115px;
+        box-sizing: border-box;
+    }
+
+    .test-drive__title {
+        text-align: center;
+    }
+
+    .test-drive__text {
+        width: 345px;
+    }
+
+    .test-drive__form {
+        width: 100%;
+    }
+
+    .test-drive__input {
+        width: 100%;
+    }
+
+    .test-drive__submit {
+        width: 315px;
+    }
+
+    .test-drive__form-info {
+        width: 315px;
+    }
+
+    .test-drive__img-container {
+        height: 493px;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }    
+}
+
