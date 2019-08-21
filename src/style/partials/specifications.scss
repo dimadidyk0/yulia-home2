@@ -1,0 +1,130 @@
+.specification {
+    &__header {
+        background-color: #242B33;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding: 0 0 0 77px;
+        height: 102px;
+        align-items: center;
+
+        &_caption {
+            font-size: 27px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+        }
+
+        &_info-box {
+            display: flex;
+            padding: 0 27px 0 0;
+        }
+
+        &_info-metr {
+            font-weight: bold;
+            margin: 12px 25px 0 0;
+            font-size: 26px;
+            letter-spacing: 0.8px;
+            position: relative;
+        }
+
+        &_info-metr::after {
+            content: '2';
+            position: absolute;
+            top: -2px;
+            right: -9px;
+            font-size: 15px;
+        }
+
+        &_info {
+            padding: 7px 85px 0 0;
+            font-size: 13px;
+            letter-spacing: 0.3px;
+            line-height: 18px;
+        }
+
+        &_out {
+            width: 22px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        width: 87%;
+        margin: auto;
+        margin-top: 27px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        &_box {
+            width: 398px;
+            background-color: gray;
+            padding: 21px 0 0 21px;
+            box-sizing: border-box;
+            border-radius: 7px;
+            margin-bottom: 25px;
+            height: 363px;
+        }
+
+        &_caption {
+            color: rgba(0,0,0,0.97);
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+
+    &__list {
+        padding: 23px 0 0 17px;
+        font-size: 12px;
+        width: 69%;
+        letter-spacing: 0.3px;
+        line-height: 20px;
+
+
+        &_item {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        &_item::before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: #000000;
+            position: absolute;
+            top: 6px;
+            left: -18px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .specification {
+        &__header_info-metr {
+            display: none;
+        }
+
+        &__header_info {
+            display: none;
+        }
+
+        &__header {
+            padding: 0 0 0 69px;
+            height: 113px;
+        }
+
+        &__header_caption {
+            letter-spacing: 3.7px;
+        }
+
+        &__header_out {
+            width: 29px;
+        }
+
+        &__header_info-box {
+            padding: 0 65px 0 0;
+        }
+    }
+}

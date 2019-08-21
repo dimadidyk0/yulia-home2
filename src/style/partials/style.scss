@@ -943,8 +943,9 @@ body {
 
     .house__slider {
         height: 467px;
-        width: 655px;
+        // width: 655px;
         right: 0;
+        width: calc(100% - 370px);
     }
 
     .house__main-info {
@@ -1017,6 +1018,7 @@ body {
 
     .house__container {
         overflow: hidden;
+        width: 100%;
     }
 
     .footer__link-item {
