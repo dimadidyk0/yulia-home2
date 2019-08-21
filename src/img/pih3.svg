@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>produmannii</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="16" y="16" width="74" height="74"></rect>
+        <linearGradient x1="46.482561%" y1="-80.5105163%" x2="46.482561%" y2="45.6870768%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.0119919143" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.361642264" offset="43.5810811%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.899393575" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-20.0%" y="-41.2%" width="140.0%" height="182.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="дома-V1" transform="translate(-855.000000, -886.000000)">
+            <g id="produmannii" transform="translate(855.000000, 886.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-Copy-9" fill="#F1F1F1" transform="translate(53.000000, 53.000000) rotate(-45.000000) translate(-53.000000, -53.000000) " xlink:href="#path-1"></use>
+                <g id="Group-15-Copy" mask="url(#mask-2)">
+                    <g transform="translate(25.000000, 33.000000)">
+                        <path d="M28.8983051,14 L28.8983051,18" id="Line-2" stroke="#DDDDDD" stroke-width="2" fill="none" stroke-linecap="round"></path>
+                        <g id="Group-14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(11.898305, 0.000000)">
+                            <rect id="Rectangle" fill="#0477A8" x="2.47368421" y="24.8888889" width="16.2105263" height="7.11111111"></rect>
+                            <path d="M10.5789474,24.259259 C10.710563,24.259259 10.7368421,24.2381711 10.7368421,24.3300951 L10.7368421,13.9662009 C10.7368421,14.0599833 10.7082472,14.037037 10.5789474,14.037037 C10.4496475,14.037037 10.4210526,14.0599833 10.4210526,13.9662009 L10.4210526,24.3300951 C10.4210526,24.2363128 10.4496475,24.259259 10.5789474,24.259259 Z" id="Path" stroke="#02638A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <polygon id="Rectangle" fill="#3B3B3B" points="3.47368421 0 18.5263158 0 22 14.2222222 0 14.2222222"></polygon>
+                        </g>
+                        <path d="M4,29 L52,29 C53.6568542,29 55,30.3431458 55,32 L55,49 L1,49 L1,32 C1,30.3431458 2.34314575,29 4,29 Z" id="Rectangle" stroke="none" fill="#0698D4" fill-rule="evenodd"></path>
+                        <path d="M3.89830508,49 L51.8983051,49 C53.5551593,49 54.8983051,50.3431458 54.8983051,52 L54.8983051,69 L0.898305085,69 L0.898305085,52 C0.898305085,50.3431458 2.24145084,49 3.89830508,49 Z" id="Rectangle" stroke="none" fill="#FCFDFD" fill-rule="evenodd" transform="translate(27.898305, 59.000000) scale(1, -1) translate(-27.898305, -59.000000) "></path>
+                        <path d="M17.5789474,42.7517816 L38.4210526,42.7517816" id="Line-5" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"></path>
+                        <path d="M17.5789474,55.7517816 L38.4210526,55.7517816" id="Line-5-Copy" stroke="#3B3B3B" stroke-width="3" fill="none" stroke-linecap="round"></path>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-3)" filter="url(#filter-4)" mask="url(#mask-2)" x="-2.27373675e-13" y="79" width="105" height="51"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

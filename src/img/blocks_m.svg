@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="359px" height="245px" viewBox="0 0 359 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="236px" height="196px" viewBox="0 0 236 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>blocks_m</title>
+    <title>cubes_75</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="359" height="245"></rect>
-        <linearGradient x1="35.0620701%" y1="59.0597729%" x2="79.5754815%" y2="37.0247231%" id="linearGradient-3">
-            <stop stop-color="#BCBCBC" offset="0%"></stop>
-            <stop stop-color="#828282" offset="100%"></stop>
+        <linearGradient x1="33.5968985%" y1="60.6019295%" x2="79.5754815%" y2="38.8865081%" id="linearGradient-1">
+            <stop stop-color="#242B33" offset="0%"></stop>
+            <stop stop-color="#0E1114" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="дома" transform="translate(-484.000000, -1314.000000)">
-            <g id="blocks_m" transform="translate(484.000000, 1314.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Rectangle-Copy-4" fill="#BCBCBC" xlink:href="#path-1"></use>
-                <polygon id="Path-20-Copy" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="206.95552 77 308.95552 129 206.95552 186 106 129"></polygon>
-                <g id="Group-20-Copy-4" mask="url(#mask-2)">
-                    <g transform="translate(227.000000, 8.000000)">
-                        <polygon id="Path-17" fill="#0698D4" points="0 17.25 102.75 69 102 111 0 59.6678227"></polygon>
-                        <polygon id="Path-18" fill="#1AB2F0" points="0 17.25 34.25 0 137 51.4804688 102.75 69"></polygon>
-                        <polygon id="Path-19" fill="#0577A5" points="102.75 69 102 111 137 94.0333841 137 51.4804687"></polygon>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="дома-V1" transform="translate(-1149.000000, -1398.000000)">
+            <g id="blocks_xl" transform="translate(858.000000, 1374.000000)">
+                <g id="cubes_75" transform="translate(291.000000, 24.000000)">
+                    <g id="Group" transform="translate(107.000000, 40.000000)">
+                        <g id="Group-20-Copy-3">
+                            <polygon id="Path-17" fill="#0698D4" points="0 16.0067568 95.1312217 64.027027 94.4368332 103 0 55.3674391"></polygon>
+                            <polygon id="Path-18" fill="#1AB2F0" points="0 16.0067568 31.7104072 0 127.450408 48.3383373 95.1312217 64.027027"></polygon>
+                            <polygon id="Path-19" fill="#0577A5" points="95.1312217 64.027027 94.4368332 103 126.841629 87.2562032 127.450408 48.3383373"></polygon>
+                        </g>
                     </g>
-                </g>
-                <g id="Group-20-Copy-3" mask="url(#mask-2)">
-                    <g transform="translate(190.955520, 26.000000)">
-                        <polygon id="Path-17" fill="#0698D4" points="0 17.25 102.75 69 102 111 0 59.6678227"></polygon>
-                        <polygon id="Path-18" fill="#1AB2F0" points="0 17.25 34.25 0 137 51.4804688 102.75 69"></polygon>
-                        <polygon id="Path-19" fill="#0577A5" points="102.75 69 102 111 137 94.0333841 137 51.4804687"></polygon>
+                    <g id="Group" transform="translate(74.000000, 56.000000)">
+                        <g id="Group-20-Copy-3">
+                            <polygon id="Path-17" fill="#0698D4" points="0 16.0067568 95.1312217 64.027027 94.4368332 103 0 55.3674391"></polygon>
+                            <polygon id="Path-18" fill="#1AB2F0" points="0 16.0067568 31.7104072 0 127.450408 48.3383373 95.1312217 64.027027"></polygon>
+                            <polygon id="Path-19" fill="#0577A5" points="95.1312217 64.027027 94.4368332 103 126.841629 87.2562032 127.450408 48.3383373"></polygon>
+                        </g>
                     </g>
-                </g>
-                <g id="Group-20-Copy-5" mask="url(#mask-2)">
-                    <g transform="translate(155.000000, 44.000000)">
-                        <polygon id="Path-17" fill="#0698D4" points="0 17.25 102.75 69 102 111 0 59.6678227"></polygon>
-                        <polygon id="Path-18" fill="#1AB2F0" points="0 17.25 34.25 0 137 51.4804688 102.75 69"></polygon>
-                        <polygon id="Path-19" fill="#0577A5" points="102.75 69 102 111 137 94.0333841 137 51.4804687"></polygon>
+                    <g id="Group" transform="translate(108.000000, 0.000000)">
+                        <g id="Group-20-Copy-3">
+                            <polygon id="Path-17" fill="#0698D4" points="0 16.0067568 95.1312217 64.027027 94.4368332 103 0 55.3674391"></polygon>
+                            <polygon id="Path-18" fill="#1AB2F0" points="0 16.0067568 31.7104072 0 127.450408 48.3383373 95.1312217 64.027027"></polygon>
+                            <polygon id="Path-19" fill="#0577A5" points="95.1312217 64.027027 94.4368332 103 126.841629 87.2562032 127.450408 48.3383373"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(75.000000, 16.000000)">
+                        <g id="Group-20-Copy-3">
+                            <polygon id="Path-17" fill="#0698D4" points="0 16.0067568 95.1312217 64.027027 94.4368332 103 0 55.3674391"></polygon>
+                            <polygon id="Path-18" fill="#1AB2F0" points="0 16.0067568 31.7104072 0 127.450408 48.3383373 95.1312217 64.027027"></polygon>
+                            <polygon id="Path-19" fill="#0577A5" points="95.1312217 64.027027 94.4368332 103 126.841629 87.2562032 127.450408 48.3383373"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Path-20-Copy-2" fill="url(#linearGradient-1)" points="73.9713907 112 169 159.097123 93.9680198 196 0 145.14242"></polygon>
+                    <g id="Group" transform="translate(41.000000, 72.000000)">
+                        <g id="Group-20-Copy-3">
+                            <polygon id="Path-17" fill="#0698D4" points="0 16.0067568 95.1312217 64.027027 94.4368332 103 0 55.3674391"></polygon>
+                            <polygon id="Path-18" fill="#1AB2F0" points="0 16.0067568 31.7104072 0 127.450408 48.3383373 95.1312217 64.027027"></polygon>
+                            <polygon id="Path-19" fill="#0577A5" points="95.1312217 64.027027 94.4368332 103 126.841629 87.2562032 127.450408 48.3383373"></polygon>
+                        </g>
                     </g>
                 </g>
             </g>
